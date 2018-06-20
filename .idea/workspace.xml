@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd369cd7-e47b-4682-9413-62bf369c8faf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/MedianOfTwoSortedArrays_4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/LongestPalindromicSubstring_5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -42,11 +42,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MedianOfTwoSortedArrays_4.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MedianOfTwoSortedArrays_4.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LeetCode/MedianOfTwoSortedArrays_4.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
+            <state relative-caret-position="1013">
               <caret line="58" column="46" selection-start-line="58" selection-start-column="46" selection-end-line="58" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LongestPalindromicSubstring_5.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode/LongestPalindromicSubstring_5.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -74,6 +83,7 @@
         <option value="$PROJECT_DIR$/src/LeetCode/AddTwoNumber_2.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/MedianOfTwoSortedArrays_2.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/MedianOfTwoSortedArrays_4.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/LongestPalindromicSubstring_5.java" />
       </list>
     </option>
   </component>
@@ -88,8 +98,9 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1920" />
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="y" value="125" />
+    <option name="width" value="1910" />
+    <option name="height" value="810" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -216,16 +227,15 @@
       <updated>1529417659841</updated>
       <workItem from="1529417663473" duration="15954000" />
       <workItem from="1529500310036" duration="636000" />
-      <workItem from="1529516329944" duration="3615000" />
+      <workItem from="1529516329944" duration="5350000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20205000" />
+    <option name="totallyTimeSpent" value="21940000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="0" width="1920" height="1080" extended-state="6" />
-    <editor active="true" />
+    <frame x="1920" y="0" width="1920" height="1080" extended-state="7" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -237,8 +247,8 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30989012" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.33076924" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30989012" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33076924" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
       <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.25752687" />
@@ -336,8 +346,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/MedianOfTwoSortedArrays_4.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
+        <state relative-caret-position="1013">
           <caret line="58" column="46" selection-start-line="58" selection-start-column="46" selection-end-line="58" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/LongestPalindromicSubstring_5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
