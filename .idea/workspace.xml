@@ -2,20 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd369cd7-e47b-4682-9413-62bf369c8faf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/xuwen.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaAlgorithmInterview/LinkList/DelRangeLinkList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaAlgorithmInterview/LinkList/LNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaAlgorithmInterview/LinkList/ReverseLinklist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaAlgorithmInterview/a.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OfferCode/Unit2_41.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaAlgorithmInterview/LinkList/LinkListAddP27.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Study/JavaBase/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Study/JavaBase/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Study/LeetCode/AddTwoNumber_2$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Study/LeetCode/AddTwoNumber_2$ListNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Study/LeetCode/AddTwoNumber_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Study/LeetCode/AddTwoNumber_2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Study/LeetCode/MedianOfTwoSortedArrays_4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Study/LeetCode/MedianOfTwoSortedArrays_4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Study/LeetCode/TwoSum_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Study/LeetCode/TwoSum_1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaAlgorithmInterview/LinkList/DelRangeLinkList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaAlgorithmInterview/LinkList/DelRangeLinkListP24.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaAlgorithmInterview/LinkList/ReverseLinklist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaAlgorithmInterview/LinkList/ReverseLinklistP20.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,15 +40,15 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
-  <component name="RunManager" selected="Application.DelRangeLinkList">
-    <configuration name="AddTwoNumber_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.AddTwoNumber_2" />
+  <component name="RunManager" selected="Application.LinkListAddP27">
+    <configuration name="DelRangeLinkListP24" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaAlgorithmInterview.LinkList.DelRangeLinkListP24" />
       <module name="Java Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LeetCode.*" />
+          <option name="PATTERN" value="JavaAlgorithmInterview.LinkList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -65,8 +56,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DelRangeLinkList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaAlgorithmInterview.LinkList.DelRangeLinkList" />
+    <configuration name="LinkListAddP27" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaAlgorithmInterview.LinkList.LinkListAddP27" />
       <module name="Java Study" />
       <extension name="coverage">
         <pattern>
@@ -91,8 +82,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseLinklist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaAlgorithmInterview.LinkList.ReverseLinklist" />
+    <configuration name="ReverseLinklistP20" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaAlgorithmInterview.LinkList.ReverseLinklistP20" />
       <module name="Java Study" />
       <extension name="coverage">
         <pattern>
@@ -118,19 +109,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.AddTwoNumber_2" />
       <item itemvalue="Application.MedianOfTwoSortedArrays_4" />
       <item itemvalue="Application.Unit2_41" />
-      <item itemvalue="Application.ReverseLinklist" />
-      <item itemvalue="Application.DelRangeLinkList" />
+      <item itemvalue="Application.ReverseLinklistP20" />
+      <item itemvalue="Application.DelRangeLinkListP24" />
+      <item itemvalue="Application.LinkListAddP27" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DelRangeLinkList" />
-        <item itemvalue="Application.ReverseLinklist" />
+        <item itemvalue="Application.LinkListAddP27" />
+        <item itemvalue="Application.DelRangeLinkListP24" />
+        <item itemvalue="Application.ReverseLinklistP20" />
         <item itemvalue="Application.Unit2_41" />
         <item itemvalue="Application.MedianOfTwoSortedArrays_4" />
-        <item itemvalue="Application.AddTwoNumber_2" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +151,8 @@
       <workItem from="1529500310036" duration="636000" />
       <workItem from="1529516329944" duration="5869000" />
       <workItem from="1577327695144" duration="5406000" />
-      <workItem from="1578132072715" duration="8334000" />
+      <workItem from="1578132072715" duration="8518000" />
+      <workItem from="1578142832730" duration="7121000" />
     </task>
     <servers />
   </component>
@@ -176,55 +168,55 @@
       <screen x="0" y="0" width="1920" height="1016" />
     </state>
     <state x="359" y="0" key="#Vim_Emulation/0.0.1920.1016@0.0.1920.1016" timestamp="1577330586831" />
-    <state width="1864" height="247" key="GridCell.Tab.0.bottom" timestamp="1578139805927">
+    <state width="1874" height="250" key="GridCell.Tab.0.bottom" timestamp="1578149836388">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state width="1850" height="211" key="GridCell.Tab.0.bottom/0.0.1920.1016@0.0.1920.1016" timestamp="1577342551188" />
-    <state width="1864" height="247" key="GridCell.Tab.0.bottom/0.0.1920.1037@0.0.1920.1037" timestamp="1578139805927" />
-    <state width="1864" height="247" key="GridCell.Tab.0.center" timestamp="1578139805927">
+    <state width="1874" height="250" key="GridCell.Tab.0.bottom/0.0.1920.1037@0.0.1920.1037" timestamp="1578149836388" />
+    <state width="1874" height="250" key="GridCell.Tab.0.center" timestamp="1578149836387">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state width="1850" height="211" key="GridCell.Tab.0.center/0.0.1920.1016@0.0.1920.1016" timestamp="1577342551188" />
-    <state width="1864" height="247" key="GridCell.Tab.0.center/0.0.1920.1037@0.0.1920.1037" timestamp="1578139805927" />
-    <state width="1864" height="247" key="GridCell.Tab.0.left" timestamp="1578139805927">
+    <state width="1874" height="250" key="GridCell.Tab.0.center/0.0.1920.1037@0.0.1920.1037" timestamp="1578149836387" />
+    <state width="1874" height="250" key="GridCell.Tab.0.left" timestamp="1578149836387">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state width="1850" height="211" key="GridCell.Tab.0.left/0.0.1920.1016@0.0.1920.1016" timestamp="1577342551187" />
-    <state width="1864" height="247" key="GridCell.Tab.0.left/0.0.1920.1037@0.0.1920.1037" timestamp="1578139805927" />
-    <state width="1864" height="247" key="GridCell.Tab.0.right" timestamp="1578139805927">
+    <state width="1874" height="250" key="GridCell.Tab.0.left/0.0.1920.1037@0.0.1920.1037" timestamp="1578149836387" />
+    <state width="1874" height="250" key="GridCell.Tab.0.right" timestamp="1578149836387">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state width="1850" height="211" key="GridCell.Tab.0.right/0.0.1920.1016@0.0.1920.1016" timestamp="1577342551188" />
-    <state width="1864" height="247" key="GridCell.Tab.0.right/0.0.1920.1037@0.0.1920.1037" timestamp="1578139805927" />
-    <state width="1864" height="326" key="GridCell.Tab.1.bottom" timestamp="1578139736152">
+    <state width="1874" height="250" key="GridCell.Tab.0.right/0.0.1920.1037@0.0.1920.1037" timestamp="1578149836387" />
+    <state width="1874" height="330" key="GridCell.Tab.1.bottom" timestamp="1578149770144">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state width="1850" height="285" key="GridCell.Tab.1.bottom/0.0.1920.1016@0.0.1920.1016" timestamp="1577334376574" />
-    <state width="1864" height="326" key="GridCell.Tab.1.bottom/0.0.1920.1037@0.0.1920.1037" timestamp="1578139736152" />
-    <state width="1864" height="326" key="GridCell.Tab.1.center" timestamp="1578139736152">
+    <state width="1874" height="330" key="GridCell.Tab.1.bottom/0.0.1920.1037@0.0.1920.1037" timestamp="1578149770144" />
+    <state width="1874" height="330" key="GridCell.Tab.1.center" timestamp="1578149770144">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state width="1850" height="285" key="GridCell.Tab.1.center/0.0.1920.1016@0.0.1920.1016" timestamp="1577334376572" />
-    <state width="1864" height="326" key="GridCell.Tab.1.center/0.0.1920.1037@0.0.1920.1037" timestamp="1578139736152" />
-    <state width="1864" height="326" key="GridCell.Tab.1.left" timestamp="1578139736152">
+    <state width="1874" height="330" key="GridCell.Tab.1.center/0.0.1920.1037@0.0.1920.1037" timestamp="1578149770144" />
+    <state width="1874" height="330" key="GridCell.Tab.1.left" timestamp="1578149770143">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state width="1850" height="285" key="GridCell.Tab.1.left/0.0.1920.1016@0.0.1920.1016" timestamp="1577334376571" />
-    <state width="1864" height="326" key="GridCell.Tab.1.left/0.0.1920.1037@0.0.1920.1037" timestamp="1578139736152" />
-    <state width="1864" height="326" key="GridCell.Tab.1.right" timestamp="1578139736152">
+    <state width="1874" height="330" key="GridCell.Tab.1.left/0.0.1920.1037@0.0.1920.1037" timestamp="1578149770143" />
+    <state width="1874" height="330" key="GridCell.Tab.1.right" timestamp="1578149770144">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state width="1850" height="285" key="GridCell.Tab.1.right/0.0.1920.1016@0.0.1920.1016" timestamp="1577334376573" />
-    <state width="1864" height="326" key="GridCell.Tab.1.right/0.0.1920.1037@0.0.1920.1037" timestamp="1578139736152" />
-    <state x="749" y="203" key="SettingsEditor" timestamp="1578136744541">
+    <state width="1874" height="330" key="GridCell.Tab.1.right/0.0.1920.1037@0.0.1920.1037" timestamp="1578149770144" />
+    <state x="749" y="203" key="SettingsEditor" timestamp="1578146279560">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state x="266" y="0" key="SettingsEditor/0.0.1920.1016@0.0.1920.1016" timestamp="1577330511186" />
-    <state x="749" y="203" key="SettingsEditor/0.0.1920.1037@0.0.1920.1037" timestamp="1578136744541" />
-    <state x="618" y="346" key="com.intellij.ide.util.TipDialog" timestamp="1578132548077">
+    <state x="749" y="203" key="SettingsEditor/0.0.1920.1037@0.0.1920.1037" timestamp="1578146279560" />
+    <state x="618" y="346" key="com.intellij.ide.util.TipDialog" timestamp="1578143004114">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
-    <state x="618" y="346" key="com.intellij.ide.util.TipDialog/0.0.1920.1037@0.0.1920.1037" timestamp="1578132548077" />
+    <state x="618" y="346" key="com.intellij.ide.util.TipDialog/0.0.1920.1037@0.0.1920.1037" timestamp="1578143004114" />
     <state x="619" y="231" key="run.anything.popup" timestamp="1578135229446">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
@@ -244,17 +236,17 @@
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/JavaAlgorithmInterview/LinkList/DelRangeLinkList.java</url>
+          <url>file://$PROJECT_DIR$/src/JavaAlgorithmInterview/LinkList/DelRangeLinkListP24.java</url>
           <line>15</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/JavaAlgorithmInterview/LinkList/DelRangeLinkList.java</url>
+          <url>file://$PROJECT_DIR$/src/JavaAlgorithmInterview/LinkList/DelRangeLinkListP24.java</url>
           <line>12</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/JavaAlgorithmInterview/LinkList/DelRangeLinkList.java</url>
+          <url>file://$PROJECT_DIR$/src/JavaAlgorithmInterview/LinkList/DelRangeLinkListP24.java</url>
           <line>43</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
