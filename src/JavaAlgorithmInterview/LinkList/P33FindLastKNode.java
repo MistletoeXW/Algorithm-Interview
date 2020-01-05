@@ -1,10 +1,17 @@
 package JavaAlgorithmInterview.LinkList;
 
 import java.util.Scanner;
-
-//单链表查找到倒数第K个结点：使用快慢指针的方法
+/**
+ * 单链表查找到倒数第K个结点：使用快慢指针的方法
+ */
 public class P33FindLastKNode {
-
+    /*
+     * @Author: xw
+     * @Description: 单链表查找到倒数第K个结点：使用快慢指针的方法//TODO
+     * @Date: 下午9:27 2020/1/5
+     * @Param: [head, k]
+     * @Return: JavaAlgorithmInterview.LinkList.LNode
+     **/
     public static LNode FindLastKNode(LNode head,int k){
         LNode p = head.next;
         //先让快指针P走K个结点
