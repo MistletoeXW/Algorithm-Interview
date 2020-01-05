@@ -9,7 +9,7 @@ import java.util.Scanner;
 // 3->4->5->6->7->9 表示数：976543
 // 9->8->2->6->5 表示数：56289
 // 两者相加： 2->3->8->2->3->0->1 表示数：1032832
-public class LinkListAddP27 {
+public class P27LinkListAdd {
      public static LNode LinkListAdd(LNode h1,LNode h2){
          if(h1 == null || h1.next == null)
              return h2;

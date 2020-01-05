@@ -4,7 +4,7 @@ package JavaAlgorithmInterview.LinkList;
 //无序链表需要两层循环，时间复杂度为O(n^2)
 //有序链表只需一层循环
 import java.util.Scanner;
-public class DelRangeLinkListP24 {
+public class P24DelRangeLinkList {
 
     //删除有序单链表中的重复结点
     public static LNode DelRangeLink1(LNode head){
