@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd369cd7-e47b-4682-9413-62bf369c8faf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/QIAnXin/LucklyTail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QIAnXin/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QIAnXin/Qianxin_test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QIAnXin/Qianxin_test2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QIAnXin/test2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Study/QIAnXin/Qianxin_test1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Study/QIAnXin/Qianxin_test1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Study/QIAnXin/Qianxin_test2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Study/QIAnXin/Qianxin_test2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/QIAnXin/Qianxin_test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QIAnXin/Qianxin_test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/QIAnXin/Qianxin_test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QIAnXin/Qianxin_test2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/QIAnXin/test2.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +43,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.notifications" />
   </component>
-  <component name="RunManager" selected="Application.Qianxin_test1">
+  <component name="RunManager" selected="Application.Qianxin_test2">
     <configuration name="LucklyTail" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="QIAnXin.LucklyTail" />
       <module name="Java Study" />
@@ -119,8 +118,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Qianxin_test1" />
         <item itemvalue="Application.Qianxin_test2" />
+        <item itemvalue="Application.Qianxin_test1" />
         <item itemvalue="Application.test2" />
         <item itemvalue="Application.LucklyTail" />
         <item itemvalue="Application.P41ReverseKNode" />
@@ -164,7 +163,7 @@
       <workItem from="1578225156481" duration="84000" />
       <workItem from="1578226816324" duration="11646000" />
       <workItem from="1578305625731" duration="7294000" />
-      <workItem from="1578376447292" duration="14300000" />
+      <workItem from="1578376447292" duration="19211000" />
     </task>
     <servers />
   </component>
@@ -189,46 +188,46 @@
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state x="1049" y="360" key="FileChooserDialogImpl/0.0.1920.1037@0.0.1920.1037" timestamp="1578381722359" />
-    <state width="1874" height="250" key="GridCell.Tab.0.bottom" timestamp="1578402855846">
+    <state width="1874" height="330" key="GridCell.Tab.0.bottom" timestamp="1578409169813">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state width="1850" height="211" key="GridCell.Tab.0.bottom/0.0.1920.1016@0.0.1920.1016" timestamp="1577342551188" />
-    <state width="1874" height="250" key="GridCell.Tab.0.bottom/0.0.1920.1037@0.0.1920.1037" timestamp="1578402855846" />
-    <state width="1874" height="250" key="GridCell.Tab.0.center" timestamp="1578402855845">
+    <state width="1874" height="330" key="GridCell.Tab.0.bottom/0.0.1920.1037@0.0.1920.1037" timestamp="1578409169813" />
+    <state width="1874" height="330" key="GridCell.Tab.0.center" timestamp="1578409169813">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state width="1850" height="211" key="GridCell.Tab.0.center/0.0.1920.1016@0.0.1920.1016" timestamp="1577342551188" />
-    <state width="1874" height="250" key="GridCell.Tab.0.center/0.0.1920.1037@0.0.1920.1037" timestamp="1578402855845" />
-    <state width="1874" height="250" key="GridCell.Tab.0.left" timestamp="1578402855845">
+    <state width="1874" height="330" key="GridCell.Tab.0.center/0.0.1920.1037@0.0.1920.1037" timestamp="1578409169813" />
+    <state width="1874" height="330" key="GridCell.Tab.0.left" timestamp="1578409169812">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state width="1850" height="211" key="GridCell.Tab.0.left/0.0.1920.1016@0.0.1920.1016" timestamp="1577342551187" />
-    <state width="1874" height="250" key="GridCell.Tab.0.left/0.0.1920.1037@0.0.1920.1037" timestamp="1578402855845" />
-    <state width="1874" height="250" key="GridCell.Tab.0.right" timestamp="1578402855846">
+    <state width="1874" height="330" key="GridCell.Tab.0.left/0.0.1920.1037@0.0.1920.1037" timestamp="1578409169812" />
+    <state width="1874" height="330" key="GridCell.Tab.0.right" timestamp="1578409169813">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state width="1850" height="211" key="GridCell.Tab.0.right/0.0.1920.1016@0.0.1920.1016" timestamp="1577342551188" />
-    <state width="1874" height="250" key="GridCell.Tab.0.right/0.0.1920.1037@0.0.1920.1037" timestamp="1578402855846" />
-    <state width="1874" height="330" key="GridCell.Tab.1.bottom" timestamp="1578400295899">
+    <state width="1874" height="330" key="GridCell.Tab.0.right/0.0.1920.1037@0.0.1920.1037" timestamp="1578409169813" />
+    <state width="1874" height="330" key="GridCell.Tab.1.bottom" timestamp="1578409169814">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state width="1850" height="285" key="GridCell.Tab.1.bottom/0.0.1920.1016@0.0.1920.1016" timestamp="1577334376574" />
-    <state width="1874" height="330" key="GridCell.Tab.1.bottom/0.0.1920.1037@0.0.1920.1037" timestamp="1578400295899" />
-    <state width="1874" height="330" key="GridCell.Tab.1.center" timestamp="1578400295899">
+    <state width="1874" height="330" key="GridCell.Tab.1.bottom/0.0.1920.1037@0.0.1920.1037" timestamp="1578409169814" />
+    <state width="1874" height="330" key="GridCell.Tab.1.center" timestamp="1578409169814">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state width="1850" height="285" key="GridCell.Tab.1.center/0.0.1920.1016@0.0.1920.1016" timestamp="1577334376572" />
-    <state width="1874" height="330" key="GridCell.Tab.1.center/0.0.1920.1037@0.0.1920.1037" timestamp="1578400295899" />
-    <state width="1874" height="330" key="GridCell.Tab.1.left" timestamp="1578400295899">
+    <state width="1874" height="330" key="GridCell.Tab.1.center/0.0.1920.1037@0.0.1920.1037" timestamp="1578409169814" />
+    <state width="1874" height="330" key="GridCell.Tab.1.left" timestamp="1578409169813">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state width="1850" height="285" key="GridCell.Tab.1.left/0.0.1920.1016@0.0.1920.1016" timestamp="1577334376571" />
-    <state width="1874" height="330" key="GridCell.Tab.1.left/0.0.1920.1037@0.0.1920.1037" timestamp="1578400295899" />
-    <state width="1874" height="330" key="GridCell.Tab.1.right" timestamp="1578400295899">
+    <state width="1874" height="330" key="GridCell.Tab.1.left/0.0.1920.1037@0.0.1920.1037" timestamp="1578409169813" />
+    <state width="1874" height="330" key="GridCell.Tab.1.right" timestamp="1578409169814">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state width="1850" height="285" key="GridCell.Tab.1.right/0.0.1920.1016@0.0.1920.1016" timestamp="1577334376573" />
-    <state width="1874" height="330" key="GridCell.Tab.1.right/0.0.1920.1037@0.0.1920.1037" timestamp="1578400295899" />
+    <state width="1874" height="330" key="GridCell.Tab.1.right/0.0.1920.1037@0.0.1920.1037" timestamp="1578409169814" />
     <state x="775" y="97" key="SettingsEditor" timestamp="1578381745889">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
@@ -289,16 +288,6 @@
           <url>file://$PROJECT_DIR$/src/JavaAlgorithmInterview/LinkList/P41ReverseKNode.java</url>
           <line>49</line>
           <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/QIAnXin/test2.java</url>
-          <line>37</line>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/QIAnXin/Qianxin_test1.java</url>
-          <line>135</line>
-          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
