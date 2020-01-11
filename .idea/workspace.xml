@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd369cd7-e47b-4682-9413-62bf369c8faf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/JavaAlgorithmInterview/LinkList/P44MergeLinkList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaAlgorithmInterview/LinkList/P49IsIntersect.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Study/JavaAlgorithmInterview/LinkList/P44MergeLinkList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Study/JavaAlgorithmInterview/LinkList/P44MergeLinkList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Study/JavaAlgorithmInterview/a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaAlgorithmInterview/LinkList/LNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaAlgorithmInterview/LinkList/LNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaAlgorithmInterview/LinkList/P44MergeLinkList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaAlgorithmInterview/LinkList/P44MergeLinkList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaAlgorithmInterview/a.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,13 +59,13 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.notifications" />
   </component>
-  <component name="RunManager" selected="Application.P44MergeLinkList">
-    <configuration name="LucklyTail" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="QIAnXin.LucklyTail" />
+  <component name="RunManager" selected="Application.P49IsIntersect">
+    <configuration name="P44MergeLinkList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaAlgorithmInterview.LinkList.P44MergeLinkList" />
       <module name="Java Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="QIAnXin.*" />
+          <option name="PATTERN" value="JavaAlgorithmInterview.LinkList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,8 +73,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P44MergeLinkList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaAlgorithmInterview.LinkList.P44MergeLinkList" />
+    <configuration name="P49IsIntersect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaAlgorithmInterview.LinkList.P49IsIntersect" />
       <module name="Java Study" />
       <extension name="coverage">
         <pattern>
@@ -121,19 +126,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.LucklyTail" />
       <item itemvalue="Application.test2" />
       <item itemvalue="Application.Qianxin_test2" />
       <item itemvalue="Application.Qianxin_test1" />
       <item itemvalue="Application.P44MergeLinkList" />
+      <item itemvalue="Application.P49IsIntersect" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.P49IsIntersect" />
         <item itemvalue="Application.P44MergeLinkList" />
         <item itemvalue="Application.Qianxin_test2" />
         <item itemvalue="Application.Qianxin_test1" />
         <item itemvalue="Application.test2" />
-        <item itemvalue="Application.LucklyTail" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +182,7 @@
       <workItem from="1578376447292" duration="19874000" />
       <workItem from="1578467655445" duration="928000" />
       <workItem from="1578495790517" duration="1368000" />
-      <workItem from="1578734619658" duration="2472000" />
+      <workItem from="1578734619658" duration="6000000" />
     </task>
     <servers />
   </component>
@@ -206,46 +211,46 @@
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state x="1049" y="360" key="FileChooserDialogImpl/0.0.1920.1037@0.0.1920.1037" timestamp="1578381722359" />
-    <state width="1874" height="250" key="GridCell.Tab.0.bottom" timestamp="1578739205702">
+    <state width="1874" height="330" key="GridCell.Tab.0.bottom" timestamp="1578743592691">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state width="1850" height="211" key="GridCell.Tab.0.bottom/0.0.1920.1016@0.0.1920.1016" timestamp="1577342551188" />
-    <state width="1874" height="250" key="GridCell.Tab.0.bottom/0.0.1920.1037@0.0.1920.1037" timestamp="1578739205702" />
-    <state width="1874" height="250" key="GridCell.Tab.0.center" timestamp="1578739205702">
+    <state width="1874" height="330" key="GridCell.Tab.0.bottom/0.0.1920.1037@0.0.1920.1037" timestamp="1578743592691" />
+    <state width="1874" height="330" key="GridCell.Tab.0.center" timestamp="1578743592690">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state width="1850" height="211" key="GridCell.Tab.0.center/0.0.1920.1016@0.0.1920.1016" timestamp="1577342551188" />
-    <state width="1874" height="250" key="GridCell.Tab.0.center/0.0.1920.1037@0.0.1920.1037" timestamp="1578739205702" />
-    <state width="1874" height="250" key="GridCell.Tab.0.left" timestamp="1578739205701">
+    <state width="1874" height="330" key="GridCell.Tab.0.center/0.0.1920.1037@0.0.1920.1037" timestamp="1578743592690" />
+    <state width="1874" height="330" key="GridCell.Tab.0.left" timestamp="1578743592690">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state width="1850" height="211" key="GridCell.Tab.0.left/0.0.1920.1016@0.0.1920.1016" timestamp="1577342551187" />
-    <state width="1874" height="250" key="GridCell.Tab.0.left/0.0.1920.1037@0.0.1920.1037" timestamp="1578739205701" />
-    <state width="1874" height="250" key="GridCell.Tab.0.right" timestamp="1578739205702">
+    <state width="1874" height="330" key="GridCell.Tab.0.left/0.0.1920.1037@0.0.1920.1037" timestamp="1578743592690" />
+    <state width="1874" height="330" key="GridCell.Tab.0.right" timestamp="1578743592690">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state width="1850" height="211" key="GridCell.Tab.0.right/0.0.1920.1016@0.0.1920.1016" timestamp="1577342551188" />
-    <state width="1874" height="250" key="GridCell.Tab.0.right/0.0.1920.1037@0.0.1920.1037" timestamp="1578739205702" />
-    <state width="1874" height="330" key="GridCell.Tab.1.bottom" timestamp="1578410222545">
+    <state width="1874" height="330" key="GridCell.Tab.0.right/0.0.1920.1037@0.0.1920.1037" timestamp="1578743592690" />
+    <state width="1874" height="330" key="GridCell.Tab.1.bottom" timestamp="1578743592691">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state width="1850" height="285" key="GridCell.Tab.1.bottom/0.0.1920.1016@0.0.1920.1016" timestamp="1577334376574" />
-    <state width="1874" height="330" key="GridCell.Tab.1.bottom/0.0.1920.1037@0.0.1920.1037" timestamp="1578410222545" />
-    <state width="1874" height="330" key="GridCell.Tab.1.center" timestamp="1578410222545">
+    <state width="1874" height="330" key="GridCell.Tab.1.bottom/0.0.1920.1037@0.0.1920.1037" timestamp="1578743592691" />
+    <state width="1874" height="330" key="GridCell.Tab.1.center" timestamp="1578743592691">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state width="1850" height="285" key="GridCell.Tab.1.center/0.0.1920.1016@0.0.1920.1016" timestamp="1577334376572" />
-    <state width="1874" height="330" key="GridCell.Tab.1.center/0.0.1920.1037@0.0.1920.1037" timestamp="1578410222545" />
-    <state width="1874" height="330" key="GridCell.Tab.1.left" timestamp="1578410222545">
+    <state width="1874" height="330" key="GridCell.Tab.1.center/0.0.1920.1037@0.0.1920.1037" timestamp="1578743592691" />
+    <state width="1874" height="330" key="GridCell.Tab.1.left" timestamp="1578743592691">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state width="1850" height="285" key="GridCell.Tab.1.left/0.0.1920.1016@0.0.1920.1016" timestamp="1577334376571" />
-    <state width="1874" height="330" key="GridCell.Tab.1.left/0.0.1920.1037@0.0.1920.1037" timestamp="1578410222545" />
-    <state width="1874" height="330" key="GridCell.Tab.1.right" timestamp="1578410222545">
+    <state width="1874" height="330" key="GridCell.Tab.1.left/0.0.1920.1037@0.0.1920.1037" timestamp="1578743592691" />
+    <state width="1874" height="330" key="GridCell.Tab.1.right" timestamp="1578743592691">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state width="1850" height="285" key="GridCell.Tab.1.right/0.0.1920.1016@0.0.1920.1016" timestamp="1577334376573" />
-    <state width="1874" height="330" key="GridCell.Tab.1.right/0.0.1920.1037@0.0.1920.1037" timestamp="1578410222545" />
+    <state width="1874" height="330" key="GridCell.Tab.1.right/0.0.1920.1037@0.0.1920.1037" timestamp="1578743592691" />
     <state x="775" y="97" key="SettingsEditor" timestamp="1578381745889">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
@@ -255,14 +260,14 @@
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state x="618" y="346" key="com.intellij.ide.util.TipDialog/0.0.1920.1037@0.0.1920.1037" timestamp="1578734624709" />
-    <state x="619" y="231" key="run.anything.popup" timestamp="1578135229446">
+    <state x="619" y="231" key="run.anything.popup" timestamp="1578743385927">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
-    <state x="619" y="231" key="run.anything.popup/0.0.1920.1037@0.0.1920.1037" timestamp="1578135229446" />
-    <state x="623" y="228" width="672" height="678" key="search.everywhere.popup" timestamp="1578379938451">
+    <state x="619" y="231" key="run.anything.popup/0.0.1920.1037@0.0.1920.1037" timestamp="1578743385927" />
+    <state x="623" y="228" width="672" height="678" key="search.everywhere.popup" timestamp="1578743494163">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
-    <state x="623" y="228" width="672" height="678" key="search.everywhere.popup/0.0.1920.1037@0.0.1920.1037" timestamp="1578379938451" />
+    <state x="623" y="228" width="672" height="678" key="search.everywhere.popup/0.0.1920.1037@0.0.1920.1037" timestamp="1578743494163" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
