@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd369cd7-e47b-4682-9413-62bf369c8faf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/JavaAlgorithmInterview/StackAndQueue/P65ReverseStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaAlgorithmInterview/StackAndQueue/P68SortStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaAlgorithmInterview/StackAndQueue/P68SortStack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,9 +53,9 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.notifications" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.P65ReverseStack">
+  <component name="RunManager" selected="Application.P68SortStack">
     <configuration name="P44MergeLinkList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaAlgorithmInterview.LinkList.P44MergeLinkList" />
       <module name="Java Study" />
@@ -94,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Qianxin_test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="QIAnXin.Qianxin_test1" />
+    <configuration name="P68SortStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaAlgorithmInterview.StackAndQueue.P68SortStack" />
       <module name="Java Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="QIAnXin.*" />
+          <option name="PATTERN" value="JavaAlgorithmInterview.StackAndQueue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,18 +123,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Qianxin_test2" />
-      <item itemvalue="Application.Qianxin_test1" />
       <item itemvalue="Application.P44MergeLinkList" />
       <item itemvalue="Application.P49IsIntersect" />
       <item itemvalue="Application.P65ReverseStack" />
+      <item itemvalue="Application.P68SortStack" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.P68SortStack" />
         <item itemvalue="Application.P65ReverseStack" />
         <item itemvalue="Application.P49IsIntersect" />
         <item itemvalue="Application.P44MergeLinkList" />
         <item itemvalue="Application.Qianxin_test2" />
-        <item itemvalue="Application.Qianxin_test1" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +178,8 @@
       <workItem from="1578376447292" duration="19874000" />
       <workItem from="1578467655445" duration="928000" />
       <workItem from="1578495790517" duration="1368000" />
-      <workItem from="1578734619658" duration="10525000" />
+      <workItem from="1578734619658" duration="11124000" />
+      <workItem from="1578751421352" duration="696000" />
     </task>
     <servers />
   </component>
@@ -206,26 +208,26 @@
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state x="1049" y="360" key="FileChooserDialogImpl/0.0.1920.1037@0.0.1920.1037" timestamp="1578381722359" />
-    <state width="1874" height="250" key="GridCell.Tab.0.bottom" timestamp="1578750819268">
+    <state width="1874" height="250" key="GridCell.Tab.0.bottom" timestamp="1578752138008">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state width="1850" height="211" key="GridCell.Tab.0.bottom/0.0.1920.1016@0.0.1920.1016" timestamp="1577342551188" />
-    <state width="1874" height="250" key="GridCell.Tab.0.bottom/0.0.1920.1037@0.0.1920.1037" timestamp="1578750819268" />
-    <state width="1874" height="250" key="GridCell.Tab.0.center" timestamp="1578750819267">
+    <state width="1874" height="250" key="GridCell.Tab.0.bottom/0.0.1920.1037@0.0.1920.1037" timestamp="1578752138008" />
+    <state width="1874" height="250" key="GridCell.Tab.0.center" timestamp="1578752138007">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state width="1850" height="211" key="GridCell.Tab.0.center/0.0.1920.1016@0.0.1920.1016" timestamp="1577342551188" />
-    <state width="1874" height="250" key="GridCell.Tab.0.center/0.0.1920.1037@0.0.1920.1037" timestamp="1578750819267" />
-    <state width="1874" height="250" key="GridCell.Tab.0.left" timestamp="1578750819267">
+    <state width="1874" height="250" key="GridCell.Tab.0.center/0.0.1920.1037@0.0.1920.1037" timestamp="1578752138007" />
+    <state width="1874" height="250" key="GridCell.Tab.0.left" timestamp="1578752138007">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state width="1850" height="211" key="GridCell.Tab.0.left/0.0.1920.1016@0.0.1920.1016" timestamp="1577342551187" />
-    <state width="1874" height="250" key="GridCell.Tab.0.left/0.0.1920.1037@0.0.1920.1037" timestamp="1578750819267" />
-    <state width="1874" height="250" key="GridCell.Tab.0.right" timestamp="1578750819268">
+    <state width="1874" height="250" key="GridCell.Tab.0.left/0.0.1920.1037@0.0.1920.1037" timestamp="1578752138007" />
+    <state width="1874" height="250" key="GridCell.Tab.0.right" timestamp="1578752138008">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state width="1850" height="211" key="GridCell.Tab.0.right/0.0.1920.1016@0.0.1920.1016" timestamp="1577342551188" />
-    <state width="1874" height="250" key="GridCell.Tab.0.right/0.0.1920.1037@0.0.1920.1037" timestamp="1578750819268" />
+    <state width="1874" height="250" key="GridCell.Tab.0.right/0.0.1920.1037@0.0.1920.1037" timestamp="1578752138008" />
     <state width="1874" height="330" key="GridCell.Tab.1.bottom" timestamp="1578743592691">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
@@ -246,15 +248,15 @@
     </state>
     <state width="1850" height="285" key="GridCell.Tab.1.right/0.0.1920.1016@0.0.1920.1016" timestamp="1577334376573" />
     <state width="1874" height="330" key="GridCell.Tab.1.right/0.0.1920.1037@0.0.1920.1037" timestamp="1578743592691" />
-    <state x="775" y="97" key="SettingsEditor" timestamp="1578381745889">
+    <state x="775" y="97" key="SettingsEditor" timestamp="1578751410122">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state x="266" y="0" key="SettingsEditor/0.0.1920.1016@0.0.1920.1016" timestamp="1577330511186" />
-    <state x="775" y="97" key="SettingsEditor/0.0.1920.1037@0.0.1920.1037" timestamp="1578381745889" />
-    <state x="618" y="346" key="com.intellij.ide.util.TipDialog" timestamp="1578734624709">
+    <state x="775" y="97" key="SettingsEditor/0.0.1920.1037@0.0.1920.1037" timestamp="1578751410122" />
+    <state x="618" y="346" key="com.intellij.ide.util.TipDialog" timestamp="1578751495842">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
-    <state x="618" y="346" key="com.intellij.ide.util.TipDialog/0.0.1920.1037@0.0.1920.1037" timestamp="1578734624709" />
+    <state x="618" y="346" key="com.intellij.ide.util.TipDialog/0.0.1920.1037@0.0.1920.1037" timestamp="1578751495842" />
     <state x="619" y="231" key="run.anything.popup" timestamp="1578743385927">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
