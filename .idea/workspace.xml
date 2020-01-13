@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd369cd7-e47b-4682-9413-62bf369c8faf" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/JavaAlgorithmInterview/BinaryTree/P87FindMaxSumTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaAlgorithmInterview/BinaryTree/P83BuildBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaAlgorithmInterview/BinaryTree/P83BuildBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/QIAnXin/Qianxin_test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QIAnXin/Qianxin_test1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,20 +54,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.P83BuildBinaryTree">
-    <configuration name="P49IsIntersect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaAlgorithmInterview.LinkList.P49IsIntersect" />
-      <module name="Java Study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JavaAlgorithmInterview.LinkList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.P87FindMaxSumTree">
     <configuration name="P65ReverseStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaAlgorithmInterview.StackAndQueue.P65ReverseStack" />
       <module name="Java Study" />
@@ -121,20 +107,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="P87FindMaxSumTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaAlgorithmInterview.BinaryTree.P87FindMaxSumTree" />
+      <module name="Java Study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JavaAlgorithmInterview.BinaryTree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.P49IsIntersect" />
       <item itemvalue="Application.P65ReverseStack" />
       <item itemvalue="Application.P68SortStack" />
       <item itemvalue="Application.P69IsPopSerial" />
       <item itemvalue="Application.P83BuildBinaryTree" />
+      <item itemvalue="Application.P87FindMaxSumTree" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.P87FindMaxSumTree" />
         <item itemvalue="Application.P83BuildBinaryTree" />
         <item itemvalue="Application.P69IsPopSerial" />
         <item itemvalue="Application.P68SortStack" />
         <item itemvalue="Application.P65ReverseStack" />
-        <item itemvalue="Application.P49IsIntersect" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +181,7 @@
       <workItem from="1578751421352" duration="1081000" />
       <workItem from="1578798472491" duration="12619000" />
       <workItem from="1578899174808" duration="246000" />
-      <workItem from="1578905574906" duration="5450000" />
+      <workItem from="1578905574906" duration="9542000" />
     </task>
     <servers />
   </component>
@@ -211,26 +210,26 @@
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state x="1049" y="360" key="FileChooserDialogImpl/0.0.1920.1037@0.0.1920.1037" timestamp="1578381722359" />
-    <state width="1874" height="250" key="GridCell.Tab.0.bottom" timestamp="1578913239615">
+    <state width="1874" height="250" key="GridCell.Tab.0.bottom" timestamp="1578913874923">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state width="1850" height="211" key="GridCell.Tab.0.bottom/0.0.1920.1016@0.0.1920.1016" timestamp="1577342551188" />
-    <state width="1874" height="250" key="GridCell.Tab.0.bottom/0.0.1920.1037@0.0.1920.1037" timestamp="1578913239615" />
-    <state width="1874" height="250" key="GridCell.Tab.0.center" timestamp="1578913239615">
+    <state width="1874" height="250" key="GridCell.Tab.0.bottom/0.0.1920.1037@0.0.1920.1037" timestamp="1578913874923" />
+    <state width="1874" height="250" key="GridCell.Tab.0.center" timestamp="1578913874923">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state width="1850" height="211" key="GridCell.Tab.0.center/0.0.1920.1016@0.0.1920.1016" timestamp="1577342551188" />
-    <state width="1874" height="250" key="GridCell.Tab.0.center/0.0.1920.1037@0.0.1920.1037" timestamp="1578913239615" />
-    <state width="1874" height="250" key="GridCell.Tab.0.left" timestamp="1578913239614">
+    <state width="1874" height="250" key="GridCell.Tab.0.center/0.0.1920.1037@0.0.1920.1037" timestamp="1578913874923" />
+    <state width="1874" height="250" key="GridCell.Tab.0.left" timestamp="1578913874922">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state width="1850" height="211" key="GridCell.Tab.0.left/0.0.1920.1016@0.0.1920.1016" timestamp="1577342551187" />
-    <state width="1874" height="250" key="GridCell.Tab.0.left/0.0.1920.1037@0.0.1920.1037" timestamp="1578913239614" />
-    <state width="1874" height="250" key="GridCell.Tab.0.right" timestamp="1578913239615">
+    <state width="1874" height="250" key="GridCell.Tab.0.left/0.0.1920.1037@0.0.1920.1037" timestamp="1578913874922" />
+    <state width="1874" height="250" key="GridCell.Tab.0.right" timestamp="1578913874923">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state width="1850" height="211" key="GridCell.Tab.0.right/0.0.1920.1016@0.0.1920.1016" timestamp="1577342551188" />
-    <state width="1874" height="250" key="GridCell.Tab.0.right/0.0.1920.1037@0.0.1920.1037" timestamp="1578913239615" />
+    <state width="1874" height="250" key="GridCell.Tab.0.right/0.0.1920.1037@0.0.1920.1037" timestamp="1578913874923" />
     <state width="1874" height="330" key="GridCell.Tab.1.bottom" timestamp="1578841339252">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
@@ -264,10 +263,10 @@
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state x="619" y="231" key="run.anything.popup/0.0.1920.1037@0.0.1920.1037" timestamp="1578743385927" />
-    <state x="623" y="228" width="672" height="678" key="search.everywhere.popup" timestamp="1578743494163">
+    <state x="623" y="228" width="672" height="678" key="search.everywhere.popup" timestamp="1578924604949">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
-    <state x="623" y="228" width="672" height="678" key="search.everywhere.popup/0.0.1920.1037@0.0.1920.1037" timestamp="1578743494163" />
+    <state x="623" y="228" width="672" height="678" key="search.everywhere.popup/0.0.1920.1037@0.0.1920.1037" timestamp="1578924604949" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
