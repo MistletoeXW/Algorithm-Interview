@@ -98,12 +98,12 @@ public class Qianxin_test1 {
         result.add(killprocess);
         if(! processTree.containsKey(killprocess)){
             return;
-
         }
         for(int child : processTree.get(killprocess)){
             kill(processTree,child,result); //递归遍历每一个子节点
         }
     }
+
     public static List<Integer> killProcess2(Map<Integer, List<Integer>> processTree,int killprocess){
         List<Integer> result = new LinkedList<>();
         kill(processTree,killprocess,result);
