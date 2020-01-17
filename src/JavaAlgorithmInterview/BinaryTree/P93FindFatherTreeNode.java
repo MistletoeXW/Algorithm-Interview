@@ -86,8 +86,6 @@ public class P93FindFatherTreeNode {
         Stack<BinaryTree> stack1 = new Stack<BinaryTree>();//保存root到达node1的路径
         Stack<BinaryTree> stack2 = new Stack<BinaryTree>();//保存root到达node2的路径
 
-        //52655384
-
         //获取从root到达node1的路径
         getPathFromRoot(root,node1,stack1);
         //获取从root到达node2的路径
@@ -236,8 +234,6 @@ public class P93FindFatherTreeNode {
         BinaryTree parentNode = FindParentNode(root,node1,node2);
 
         System.out.print(node1_num+ "与"+node2_num+"的最近共同父节点为:"+ parentNode.data+"\n");
-
-
 
 
     }

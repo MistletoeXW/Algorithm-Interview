@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd369cd7-e47b-4682-9413-62bf369c8faf" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/JavaAlgorithmInterview/BinaryTree/P98FindTwoNodeDist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/JavaAlgorithmInterview/BinaryTree/P93FindFatherTreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaAlgorithmInterview/BinaryTree/P93FindFatherTreeNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,20 +55,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.P93FindFatherTreeNode">
-    <configuration name="P68SortStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaAlgorithmInterview.StackAndQueue.P68SortStack" />
-      <module name="Java Study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JavaAlgorithmInterview.StackAndQueue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.P98FindTwoNodeDist">
     <configuration name="P69IsPopSerial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaAlgorithmInterview.StackAndQueue.P69IsPopSerial" />
       <module name="Java Study" />
@@ -119,20 +108,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="P98FindTwoNodeDist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaAlgorithmInterview.BinaryTree.P98FindTwoNodeDist" />
+      <module name="Java Study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JavaAlgorithmInterview.BinaryTree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.P68SortStack" />
       <item itemvalue="Application.P69IsPopSerial" />
       <item itemvalue="Application.P83BuildBinaryTree" />
       <item itemvalue="Application.P87FindMaxSumTree" />
       <item itemvalue="Application.P93FindFatherTreeNode" />
+      <item itemvalue="Application.P98FindTwoNodeDist" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.P98FindTwoNodeDist" />
         <item itemvalue="Application.P93FindFatherTreeNode" />
         <item itemvalue="Application.P87FindMaxSumTree" />
         <item itemvalue="Application.P83BuildBinaryTree" />
         <item itemvalue="Application.P69IsPopSerial" />
-        <item itemvalue="Application.P68SortStack" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +187,7 @@
       <workItem from="1579000116936" duration="605000" />
       <workItem from="1579082300810" duration="7707000" />
       <workItem from="1579171335211" duration="1042000" />
-      <workItem from="1579241436840" duration="5782000" />
+      <workItem from="1579241436840" duration="10922000" />
     </task>
     <servers />
   </component>
@@ -218,46 +220,46 @@
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state x="1049" y="360" key="FileChooserDialogImpl/0.0.1920.1037@0.0.1920.1037" timestamp="1578381722359" />
-    <state width="1874" height="250" key="GridCell.Tab.0.bottom" timestamp="1579245898823">
+    <state width="1874" height="250" key="GridCell.Tab.0.bottom" timestamp="1579254994295">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state width="1850" height="211" key="GridCell.Tab.0.bottom/0.0.1920.1016@0.0.1920.1016" timestamp="1577342551188" />
-    <state width="1874" height="250" key="GridCell.Tab.0.bottom/0.0.1920.1037@0.0.1920.1037" timestamp="1579245898823" />
-    <state width="1874" height="250" key="GridCell.Tab.0.center" timestamp="1579245898822">
+    <state width="1874" height="250" key="GridCell.Tab.0.bottom/0.0.1920.1037@0.0.1920.1037" timestamp="1579254994295" />
+    <state width="1874" height="250" key="GridCell.Tab.0.center" timestamp="1579254994295">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state width="1850" height="211" key="GridCell.Tab.0.center/0.0.1920.1016@0.0.1920.1016" timestamp="1577342551188" />
-    <state width="1874" height="250" key="GridCell.Tab.0.center/0.0.1920.1037@0.0.1920.1037" timestamp="1579245898822" />
-    <state width="1874" height="250" key="GridCell.Tab.0.left" timestamp="1579245898822">
+    <state width="1874" height="250" key="GridCell.Tab.0.center/0.0.1920.1037@0.0.1920.1037" timestamp="1579254994295" />
+    <state width="1874" height="250" key="GridCell.Tab.0.left" timestamp="1579254994294">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state width="1850" height="211" key="GridCell.Tab.0.left/0.0.1920.1016@0.0.1920.1016" timestamp="1577342551187" />
-    <state width="1874" height="250" key="GridCell.Tab.0.left/0.0.1920.1037@0.0.1920.1037" timestamp="1579245898822" />
-    <state width="1874" height="250" key="GridCell.Tab.0.right" timestamp="1579245898822">
+    <state width="1874" height="250" key="GridCell.Tab.0.left/0.0.1920.1037@0.0.1920.1037" timestamp="1579254994294" />
+    <state width="1874" height="250" key="GridCell.Tab.0.right" timestamp="1579254994295">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state width="1850" height="211" key="GridCell.Tab.0.right/0.0.1920.1016@0.0.1920.1016" timestamp="1577342551188" />
-    <state width="1874" height="250" key="GridCell.Tab.0.right/0.0.1920.1037@0.0.1920.1037" timestamp="1579245898822" />
-    <state width="1874" height="330" key="GridCell.Tab.1.bottom" timestamp="1579245872075">
+    <state width="1874" height="250" key="GridCell.Tab.0.right/0.0.1920.1037@0.0.1920.1037" timestamp="1579254994295" />
+    <state width="1874" height="330" key="GridCell.Tab.1.bottom" timestamp="1579254939593">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state width="1850" height="285" key="GridCell.Tab.1.bottom/0.0.1920.1016@0.0.1920.1016" timestamp="1577334376574" />
-    <state width="1874" height="330" key="GridCell.Tab.1.bottom/0.0.1920.1037@0.0.1920.1037" timestamp="1579245872075" />
-    <state width="1874" height="330" key="GridCell.Tab.1.center" timestamp="1579245872075">
+    <state width="1874" height="330" key="GridCell.Tab.1.bottom/0.0.1920.1037@0.0.1920.1037" timestamp="1579254939593" />
+    <state width="1874" height="330" key="GridCell.Tab.1.center" timestamp="1579254939593">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state width="1850" height="285" key="GridCell.Tab.1.center/0.0.1920.1016@0.0.1920.1016" timestamp="1577334376572" />
-    <state width="1874" height="330" key="GridCell.Tab.1.center/0.0.1920.1037@0.0.1920.1037" timestamp="1579245872075" />
-    <state width="1874" height="330" key="GridCell.Tab.1.left" timestamp="1579245872075">
+    <state width="1874" height="330" key="GridCell.Tab.1.center/0.0.1920.1037@0.0.1920.1037" timestamp="1579254939593" />
+    <state width="1874" height="330" key="GridCell.Tab.1.left" timestamp="1579254939593">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state width="1850" height="285" key="GridCell.Tab.1.left/0.0.1920.1016@0.0.1920.1016" timestamp="1577334376571" />
-    <state width="1874" height="330" key="GridCell.Tab.1.left/0.0.1920.1037@0.0.1920.1037" timestamp="1579245872075" />
-    <state width="1874" height="330" key="GridCell.Tab.1.right" timestamp="1579245872075">
+    <state width="1874" height="330" key="GridCell.Tab.1.left/0.0.1920.1037@0.0.1920.1037" timestamp="1579254939593" />
+    <state width="1874" height="330" key="GridCell.Tab.1.right" timestamp="1579254939593">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state width="1850" height="285" key="GridCell.Tab.1.right/0.0.1920.1016@0.0.1920.1016" timestamp="1577334376573" />
-    <state width="1874" height="330" key="GridCell.Tab.1.right/0.0.1920.1037@0.0.1920.1037" timestamp="1579245872075" />
+    <state width="1874" height="330" key="GridCell.Tab.1.right/0.0.1920.1037@0.0.1920.1037" timestamp="1579254939593" />
     <state x="775" y="97" key="SettingsEditor" timestamp="1579246303321">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
@@ -326,8 +328,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/JavaAlgorithmInterview/BinaryTree/P93FindFatherTreeNode.java</url>
-          <line>100</line>
+          <line>94</line>
           <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/JavaAlgorithmInterview/BinaryTree/P98FindTwoNodeDist.java</url>
+          <line>104</line>
+          <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
