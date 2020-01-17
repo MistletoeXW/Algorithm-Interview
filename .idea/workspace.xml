@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd369cd7-e47b-4682-9413-62bf369c8faf" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/JavaAlgorithmInterview/BinaryTree/P93FindFatherTreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaAlgorithmInterview/BinaryTree/P93FindFatherTreeNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -186,7 +185,7 @@
       <workItem from="1579000116936" duration="605000" />
       <workItem from="1579082300810" duration="7707000" />
       <workItem from="1579171335211" duration="1042000" />
-      <workItem from="1579241436840" duration="4233000" />
+      <workItem from="1579241436840" duration="5782000" />
     </task>
     <servers />
   </component>
@@ -272,10 +271,10 @@
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state x="619" y="231" key="run.anything.popup/0.0.1920.1037@0.0.1920.1037" timestamp="1578743385927" />
-    <state x="623" y="228" width="672" height="678" key="search.everywhere.popup" timestamp="1578924604949">
+    <state x="623" y="228" width="672" height="678" key="search.everywhere.popup" timestamp="1579246996540">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
-    <state x="623" y="228" width="672" height="678" key="search.everywhere.popup/0.0.1920.1037@0.0.1920.1037" timestamp="1578924604949" />
+    <state x="623" y="228" width="672" height="678" key="search.everywhere.popup/0.0.1920.1037@0.0.1920.1037" timestamp="1579246996540" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -327,7 +326,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/JavaAlgorithmInterview/BinaryTree/P93FindFatherTreeNode.java</url>
-          <line>96</line>
+          <line>100</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>

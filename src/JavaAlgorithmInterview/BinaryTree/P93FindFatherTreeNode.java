@@ -1,9 +1,5 @@
 package JavaAlgorithmInterview.BinaryTree;
 
-import org.omg.PortableInterceptor.INACTIVE;
-import sun.awt.Symbol;
-
-import java.beans.BeanInfo;
 import java.util.Scanner;
 import java.util.Stack;
 
@@ -18,6 +14,10 @@ import java.util.Stack;
  *                  1.将二叉树看成是一棵完全二叉树对所有结点进行编号
  *                  2.分别求出node1和node2的编号n1和n2,然后没次找出n1和n2中较大的值初以2,直到n1==n2为止
  *                  3.此时n1或者n2的值就是node1和node2的最近公共父节点
+ *               方法3:后序遍历法
+ *                  1.查找到node1和node2的最近公共父节点可以转化为找到一个结点node,
+ *                    使得node1与node2分别位于接点node的左子树或者右子树
+ *
  * @Author:xuwen
  * @Date: 2020/1/14 下午5:50
  **/
@@ -163,6 +163,30 @@ public class P93FindFatherTreeNode {
 
     //===================方法三:后序遍历法=======================
 
+    /*
+     * @Author: xw
+     * @Description: 查找到node1和node2的最近公共父节点可以转化为找到一个结点node,
+     *               使得node1与node2分别位于接点node的左子树或者右子树//TODO
+     * @Date: 下午3:43 2020/1/17
+     * @Param: [root, node1, node2]
+     * @Return: JavaAlgorithmInterview.BinaryTree.BinaryTree
+     **/
+    public static BinaryTree FindParentNode(BinaryTree root,BinaryTree node1,BinaryTree node2){
+        if(root == null || root == node1 || root == node2 ){
+            return root;
+        }
+        //后序遍历
+        BinaryTree lchild = FindParentNode(root.lchild,node1,node2);
+        BinaryTree rchild = FindParentNode(root.rchild,node1,node2);
+        //如果root的左子树中没有结点node1和node2,那么一定在root的右子树中
+        if(lchild == null)
+            return rchild;
+        else if(rchild == null)
+            return lchild;
+        else
+            //node1 与node2分别位于root的左子树和右子树上,root就是它们最近的共同父节点
+            return root;
+    }
 
 
 
@@ -189,27 +213,27 @@ public class P93FindFatherTreeNode {
 //        BinaryTree parentNode = findParentNode(root,node1,node2);
 
         //===================方法二: 结点编号法=======================
-        IntRef ref1 = new IntRef();
-        ref1.num = 1;
-        IntRef ref2 = new IntRef();
-        ref2.num = 1;
-        getNum(root,node1,ref1);
-        getNum(root,node2,ref2);
-        int num1 = ref1.num;
-        int num2 = ref2.num;
-        //找出编号为num1 与 num2 的共同父节点
-        //两者中较大的除以2,直到两者相等
-        while (num1 != num2){
-            if(num1 > num2)
-                num1 /= 2;
-            else
-                num2 /= 2;
-        }
-        //num1就是他们最近的公共父节点的编号,通过编号找到对应的结点
-        BinaryTree parentNode = getNodeFromNum(root,num1);
+//        IntRef ref1 = new IntRef();
+//        ref1.num = 1;
+//        IntRef ref2 = new IntRef();
+//        ref2.num = 1;
+//        getNum(root,node1,ref1);
+//        getNum(root,node2,ref2);
+//        int num1 = ref1.num;
+//        int num2 = ref2.num;
+//        //找出编号为num1 与 num2 的共同父节点
+//        //两者中较大的除以2,直到两者相等
+//        while (num1 != num2){
+//            if(num1 > num2)
+//                num1 /= 2;
+//            else
+//                num2 /= 2;
+//        }
+//        //num1就是他们最近的公共父节点的编号,通过编号找到对应的结点
+//        BinaryTree parentNode = getNodeFromNum(root,num1);
 
         //===================方法三:后序遍历法=======================
-
+        BinaryTree parentNode = FindParentNode(root,node1,node2);
 
         System.out.print(node1_num+ "与"+node2_num+"的最近共同父节点为:"+ parentNode.data+"\n");
 
