@@ -6,7 +6,7 @@ import java.util.Stack;
 /**
  * @ClassName:P98FindTwoNodeDist
  * @Description: 计算二叉树中两个结点的距离(一个结点到另一个结点的最小边数)
- *               方法: 对于给定的root二叉树,只要能找到两个结点n1和n2的公共父结点,
+ *               方法: 对于给定的root二叉树,只要能找到两个结点n1和n2的公共父结点(采用路径比对法),
  *               那么就可以通过一下公式计算出两者的距离
  *               Dist(node1,node2) = Dist(root,node1) + Dist(root,node2) - 2*Dist(root,parentNode)
  * @Author:xuwen
