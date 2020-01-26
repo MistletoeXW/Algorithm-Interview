@@ -30,7 +30,7 @@
       <option name="IGNORE_JAVADOC_PERIOD" value="true" />
       <option name="IGNORE_DUPLICATED_THROWS" value="false" />
       <option name="IGNORE_POINT_TO_ITSELF" value="false" />
-      <option name="myAdditionalJavadocTags" value="Description:,Date:,ClassName:P37JudgeLoopLinkList,Author:xuwen,ClassName:P65ReverseStack,Description:翻转一个栈，使栈中的元素由原来的栈顶到栈底的顺序变为栈底到站顶的顺序,ClassName:P69IsPopSerial,ClassName:P83BuildBinaryTree,ClassName:" />
+      <option name="myAdditionalJavadocTags" value="Description:,Date:,ClassName:P37JudgeLoopLinkList,Author:xuwen,ClassName:P65ReverseStack,Description:翻转一个栈，使栈中的元素由原来的栈顶到栈底的顺序变为栈底到站顶的顺序,ClassName:P69IsPopSerial,ClassName:P83BuildBinaryTree,ClassName:,ClassName:ReverseDNS" />
     </inspection_tool>
     <inspection_tool class="LoopConditionNotUpdatedInsideLoop" enabled="false" level="WARNING" enabled_by_default="false">
       <option name="ignoreIterators" value="false" />

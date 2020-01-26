@@ -14,7 +14,7 @@ import java.util.SimpleTimeZone;
  * @Author:xuwen
  * @Date: 2020/1/26 下午1:30
  **/
-public class ReverseTree {
+public class P105ReverseTree {
 
     /*
      * @Author: xw
@@ -26,13 +26,15 @@ public class ReverseTree {
     public static void ReverseTree(BinaryTree root){
         if(root == null)
             return;
-        //递归遍历左子树和右子树
-        ReverseTree(root.lchild);
-        ReverseTree(root.rchild);
         //交换左右子树
         BinaryTree tmp = root.lchild;
         root.lchild = root.rchild;
         root.rchild = tmp;
+
+        //递归遍历左子树和右子树
+        ReverseTree(root.lchild);
+        ReverseTree(root.rchild);
+
     }
 
     /*
