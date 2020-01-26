@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd369cd7-e47b-4682-9413-62bf369c8faf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/JavaAlgorithmInterview/ArrayList/P112FindRangeNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaAlgorithmInterview/ArrayList/P117FindRangNNum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Study/JavaAlgorithmInterview/ArrayList/P112FindRangeNum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Study/JavaAlgorithmInterview/ArrayList/P112FindRangeNum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaAlgorithmInterview/ArrayList/P112FindRangeNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaAlgorithmInterview/ArrayList/P112FindRangeNum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +56,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.P112FindRangeNum">
+  <component name="RunManager" selected="Application.P117FindRangNNum">
     <configuration name="P105ReverseTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaAlgorithmInterview.BinaryTree.P105ReverseTree" />
       <module name="Java Study" />
@@ -94,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P93FindFatherTreeNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaAlgorithmInterview.BinaryTree.P93FindFatherTreeNode" />
+    <configuration name="P117FindRangNNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaAlgorithmInterview.ArrayList.P117FindRangNNum" />
       <module name="Java Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaAlgorithmInterview.BinaryTree.*" />
+          <option name="PATTERN" value="JavaAlgorithmInterview.ArrayList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,19 +123,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.P93FindFatherTreeNode" />
       <item itemvalue="Application.P98FindTwoNodeDist" />
       <item itemvalue="Application.P105ReverseTree" />
       <item itemvalue="Application.P108ReverseDNS" />
       <item itemvalue="Application.P112FindRangeNum" />
+      <item itemvalue="Application.P117FindRangNNum" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.P117FindRangNNum" />
         <item itemvalue="Application.P112FindRangeNum" />
         <item itemvalue="Application.P108ReverseDNS" />
         <item itemvalue="Application.P105ReverseTree" />
         <item itemvalue="Application.P98FindTwoNodeDist" />
-        <item itemvalue="Application.P93FindFatherTreeNode" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +193,7 @@
       <workItem from="1579846077357" duration="640000" />
       <workItem from="1579912420238" duration="616000" />
       <workItem from="1579939948391" duration="2797000" />
-      <workItem from="1580012507735" duration="17804000" />
+      <workItem from="1580012507735" duration="21554000" />
     </task>
     <servers />
   </component>
@@ -228,46 +230,46 @@
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state x="1049" y="360" key="FileChooserDialogImpl/0.0.1920.1037@0.0.1920.1037" timestamp="1578381722359" />
-    <state width="1874" height="330" key="GridCell.Tab.0.bottom" timestamp="1580024832937">
+    <state width="1874" height="250" key="GridCell.Tab.0.bottom" timestamp="1580044377935">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state width="1850" height="211" key="GridCell.Tab.0.bottom/0.0.1920.1016@0.0.1920.1016" timestamp="1577342551188" />
-    <state width="1874" height="330" key="GridCell.Tab.0.bottom/0.0.1920.1037@0.0.1920.1037" timestamp="1580024832937" />
-    <state width="1874" height="330" key="GridCell.Tab.0.center" timestamp="1580024832937">
+    <state width="1874" height="250" key="GridCell.Tab.0.bottom/0.0.1920.1037@0.0.1920.1037" timestamp="1580044377935" />
+    <state width="1874" height="250" key="GridCell.Tab.0.center" timestamp="1580044377935">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state width="1850" height="211" key="GridCell.Tab.0.center/0.0.1920.1016@0.0.1920.1016" timestamp="1577342551188" />
-    <state width="1874" height="330" key="GridCell.Tab.0.center/0.0.1920.1037@0.0.1920.1037" timestamp="1580024832936" />
-    <state width="1874" height="330" key="GridCell.Tab.0.left" timestamp="1580024832936">
+    <state width="1874" height="250" key="GridCell.Tab.0.center/0.0.1920.1037@0.0.1920.1037" timestamp="1580044377935" />
+    <state width="1874" height="250" key="GridCell.Tab.0.left" timestamp="1580044377934">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state width="1850" height="211" key="GridCell.Tab.0.left/0.0.1920.1016@0.0.1920.1016" timestamp="1577342551187" />
-    <state width="1874" height="330" key="GridCell.Tab.0.left/0.0.1920.1037@0.0.1920.1037" timestamp="1580024832936" />
-    <state width="1874" height="330" key="GridCell.Tab.0.right" timestamp="1580024832937">
+    <state width="1874" height="250" key="GridCell.Tab.0.left/0.0.1920.1037@0.0.1920.1037" timestamp="1580044377934" />
+    <state width="1874" height="250" key="GridCell.Tab.0.right" timestamp="1580044377935">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state width="1850" height="211" key="GridCell.Tab.0.right/0.0.1920.1016@0.0.1920.1016" timestamp="1577342551188" />
-    <state width="1874" height="330" key="GridCell.Tab.0.right/0.0.1920.1037@0.0.1920.1037" timestamp="1580024832937" />
-    <state width="1874" height="330" key="GridCell.Tab.1.bottom" timestamp="1580024832937">
+    <state width="1874" height="250" key="GridCell.Tab.0.right/0.0.1920.1037@0.0.1920.1037" timestamp="1580044377935" />
+    <state width="1874" height="330" key="GridCell.Tab.1.bottom" timestamp="1580044323072">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state width="1850" height="285" key="GridCell.Tab.1.bottom/0.0.1920.1016@0.0.1920.1016" timestamp="1577334376574" />
-    <state width="1874" height="330" key="GridCell.Tab.1.bottom/0.0.1920.1037@0.0.1920.1037" timestamp="1580024832937" />
-    <state width="1874" height="330" key="GridCell.Tab.1.center" timestamp="1580024832937">
+    <state width="1874" height="330" key="GridCell.Tab.1.bottom/0.0.1920.1037@0.0.1920.1037" timestamp="1580044323072" />
+    <state width="1874" height="330" key="GridCell.Tab.1.center" timestamp="1580044323072">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state width="1850" height="285" key="GridCell.Tab.1.center/0.0.1920.1016@0.0.1920.1016" timestamp="1577334376572" />
-    <state width="1874" height="330" key="GridCell.Tab.1.center/0.0.1920.1037@0.0.1920.1037" timestamp="1580024832937" />
-    <state width="1874" height="330" key="GridCell.Tab.1.left" timestamp="1580024832937">
+    <state width="1874" height="330" key="GridCell.Tab.1.center/0.0.1920.1037@0.0.1920.1037" timestamp="1580044323072" />
+    <state width="1874" height="330" key="GridCell.Tab.1.left" timestamp="1580044323072">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state width="1850" height="285" key="GridCell.Tab.1.left/0.0.1920.1016@0.0.1920.1016" timestamp="1577334376571" />
-    <state width="1874" height="330" key="GridCell.Tab.1.left/0.0.1920.1037@0.0.1920.1037" timestamp="1580024832937" />
-    <state width="1874" height="330" key="GridCell.Tab.1.right" timestamp="1580024832937">
+    <state width="1874" height="330" key="GridCell.Tab.1.left/0.0.1920.1037@0.0.1920.1037" timestamp="1580044323072" />
+    <state width="1874" height="330" key="GridCell.Tab.1.right" timestamp="1580044323072">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state width="1850" height="285" key="GridCell.Tab.1.right/0.0.1920.1016@0.0.1920.1016" timestamp="1577334376573" />
-    <state width="1874" height="330" key="GridCell.Tab.1.right/0.0.1920.1037@0.0.1920.1037" timestamp="1580024832937" />
+    <state width="1874" height="330" key="GridCell.Tab.1.right/0.0.1920.1037@0.0.1920.1037" timestamp="1580044323072" />
     <state x="775" y="97" key="SettingsEditor" timestamp="1579258503823">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
@@ -343,6 +345,11 @@
           <url>file://$PROJECT_DIR$/src/JavaAlgorithmInterview/BinaryTree/P98FindTwoNodeDist.java</url>
           <line>104</line>
           <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/JavaAlgorithmInterview/ArrayList/P117FindRangNNum.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="30" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -9,7 +9,6 @@ import java.util.Scanner;
  *               要求算法只能遍历每个数组元素一次,且不使用辅助空间
  *            方法一: Hash法
  *            方法二: 数据映射法
- *            方法三: 环形相遇法
  *
  * @Author:xuwen
  * @Date: 2020/1/26 下午7:07
@@ -26,7 +25,7 @@ public class P112FindRangeNum {
      * @Param: [ary]
      * @Return: int
      **/
-    public static int findRangNum(int[] ary){
+    public static int findRangNum_1(int[] ary){
         if(null == ary)
             return -1;
         int len = ary.length;
@@ -46,6 +45,37 @@ public class P112FindRangeNum {
 
     //=======================方法二:数据映射法===============================
 
+    /*
+     * @Author: xw
+     * @Description: 将数组中的值作为数组下标进行遍历,同时将对应下标的值改为相反数,
+     *               如果当再次遍历到一个下标位置的值为负数时,则表示为重复数字//TODO
+     * @Date: 下午7:46 2020/1/26
+     * @Param: [ary]
+     * @Return: int
+     **/
+    public static int findRangeNum_2(int[] ary){
+        if(ary == null)
+            return -1;
+        int len = ary.length;
+        int index = 0;
+        int i=0;
+        while(true){
+            //数组中的元素值只能小于len,否则会越界
+            if(ary[i]>=len)
+                return -1;
+            if(ary[index]<0)
+                break;
+            //访问过,通过变相反数的方法进行标记
+            ary[index] *= -1;
+            //index的后继为ary[index]
+            index = -1*ary[index];
+        }
+
+        return index;
+
+    }
+
+
     public static void main(String[] args){
 
         System.out.print("请输入数组的值:");
@@ -58,9 +88,10 @@ public class P112FindRangeNum {
         sc.close();
 
         //=======================方法一:Hash法===============================
-        int num = findRangNum(ary);
+        //int num = findRangNum_1(ary);
 
-
+        //=======================方法二:数据映射法===============================
+        int num = findRangeNum_2(ary);
 
         System.out.print("重复的数字为:" + num);
 
