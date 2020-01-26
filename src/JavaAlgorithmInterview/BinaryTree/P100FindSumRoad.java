@@ -24,7 +24,7 @@ public class P100FindSumRoad {
     public static void FindRoad(BinaryTree root, int num, int sum,Vector<Integer> v){
 
         //记录当前遍历的root结点
-        sum+=root.data;
+        sum += root.data;
         v.add(root.data);
         //当前结点是叶子结点且遍历路径上所有结点的和等于num
         if(root.lchild == null && root.rchild == null && sum==num){
@@ -43,6 +43,8 @@ public class P100FindSumRoad {
         v.remove(v.size()-1);
 
     }
+
+    
 
 
 

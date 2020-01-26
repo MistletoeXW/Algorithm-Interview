@@ -45,7 +45,6 @@ public class P93FindFatherTreeNode {
             root = null;
         }
         return root;
-
     }
 
 
@@ -70,7 +69,6 @@ public class P93FindFatherTreeNode {
             s.push(root);
             return true;
         }
-
         return false;
     }
 
