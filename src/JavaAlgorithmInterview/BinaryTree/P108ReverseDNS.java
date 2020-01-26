@@ -1,21 +1,20 @@
 package JavaAlgorithmInterview.BinaryTree;
 
-import com.sun.xml.internal.bind.v2.runtime.output.Pcdata;
-
-import javax.print.DocFlavor;
-import javax.swing.plaf.synth.SynthTextAreaUI;
 import java.util.Scanner;
 
 /**
  * @ClassName: P108ReverseDNS
- * @Description: 实现反向DNS查找到缓存
+ * @Description: 实现反向DNS查找到缓存(本题运用字典树实现)
  *            描述: 反向DNS查找是使用Internet IP地址查找域名.例如,在浏览其器中输入:74.125.200.106就会自动重定向到google
  *            想要实现反向DNS查找缓存,主要需要完成如下的功能:
  *               1. 将IP地址添加到缓存中的URL映射
  *               2. 根据给定IP地址查找对应的URL
  *            解决方案:
  *               方法一: 哈希法--使用Hashmap 来存储IP地址和URL之间的映射关系
- *               方法二: Tire树法--在Tire树中存储IP地址,而在最后一个结点中存储对应的域名
+ *               方法二: Tire树(字典树)法--在Tire树中存储IP地址,而在最后一个结点中存储对应的域名
+ *                      Trie树,是一种树形结构,是一种哈希树的变种。典型应用是用于统计,排序和保存大量的字符串（但不仅限于字符串）,
+ *                      所以经常被搜索引擎系统用于文本词频统计.
+ *                      它的优点是：利用字符串的公共前缀来减少查询时间,最大限度地减少无谓的字符串比较,查询效率比哈希树高.
  *            两者对比:
  *               1. 使用Tire树,在最坏的情况下时间复杂度为O(1), 而哈希方法在平均情况下时间复杂度为O(1)
  *               2. Tire树可以实现前缀搜索(对于有相同前缀的IP地址,可以寻找所有的URL)
