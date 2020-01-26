@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd369cd7-e47b-4682-9413-62bf369c8faf" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/JavaAlgorithmInterview/ArrayList/P112FindRangeNum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaAlgorithmInterview/BinaryTree/P108ReverseDNS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaAlgorithmInterview/BinaryTree/P108ReverseDNS.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +54,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.P108ReverseDNS">
+  <component name="RunManager" selected="Application.P112FindRangeNum">
     <configuration name="P105ReverseTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaAlgorithmInterview.BinaryTree.P105ReverseTree" />
       <module name="Java Study" />
@@ -81,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P87FindMaxSumTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaAlgorithmInterview.BinaryTree.P87FindMaxSumTree" />
+    <configuration name="P112FindRangeNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaAlgorithmInterview.ArrayList.P112FindRangeNum" />
       <module name="Java Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaAlgorithmInterview.BinaryTree.*" />
+          <option name="PATTERN" value="JavaAlgorithmInterview.ArrayList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,19 +121,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.P87FindMaxSumTree" />
       <item itemvalue="Application.P93FindFatherTreeNode" />
       <item itemvalue="Application.P98FindTwoNodeDist" />
       <item itemvalue="Application.P105ReverseTree" />
       <item itemvalue="Application.P108ReverseDNS" />
+      <item itemvalue="Application.P112FindRangeNum" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.P112FindRangeNum" />
         <item itemvalue="Application.P108ReverseDNS" />
         <item itemvalue="Application.P105ReverseTree" />
         <item itemvalue="Application.P98FindTwoNodeDist" />
         <item itemvalue="Application.P93FindFatherTreeNode" />
-        <item itemvalue="Application.P87FindMaxSumTree" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +191,7 @@
       <workItem from="1579846077357" duration="640000" />
       <workItem from="1579912420238" duration="616000" />
       <workItem from="1579939948391" duration="2797000" />
-      <workItem from="1580012507735" duration="12421000" />
+      <workItem from="1580012507735" duration="17804000" />
     </task>
     <servers />
   </component>
@@ -281,10 +281,10 @@
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state x="619" y="231" key="run.anything.popup/0.0.1920.1037@0.0.1920.1037" timestamp="1578743385927" />
-    <state x="623" y="228" width="672" height="678" key="search.everywhere.popup" timestamp="1579246996540">
+    <state x="623" y="228" width="672" height="678" key="search.everywhere.popup" timestamp="1580037522985">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
-    <state x="623" y="228" width="672" height="678" key="search.everywhere.popup/0.0.1920.1037@0.0.1920.1037" timestamp="1579246996540" />
+    <state x="623" y="228" width="672" height="678" key="search.everywhere.popup/0.0.1920.1037@0.0.1920.1037" timestamp="1580037522985" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -343,16 +343,6 @@
           <url>file://$PROJECT_DIR$/src/JavaAlgorithmInterview/BinaryTree/P98FindTwoNodeDist.java</url>
           <line>104</line>
           <option name="timeStamp" value="27" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/JavaAlgorithmInterview/BinaryTree/P108ReverseDNS.java</url>
-          <line>61</line>
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/JavaAlgorithmInterview/BinaryTree/P108ReverseDNS.java</url>
-          <line>90</line>
-          <option name="timeStamp" value="29" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
