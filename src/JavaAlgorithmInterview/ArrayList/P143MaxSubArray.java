@@ -19,6 +19,8 @@ import java.util.Scanner;
  *           同时也计算出arr[0...i-1]中包含arr[0...i-1]中包含arr[i-1]的最大的子数组和为End[i-1]
  *           则可以得出如下关系: All[i-1] = max{End[i-1,arr[i-1],All[i-2}
  *
+ *           附加要求: 要求知道子数组最大值后,如何才能确定最大子数组的位置
+ *
  *
  * @Author:xuwen
  * @Date: 2020/1/28 下午2:50
@@ -78,7 +80,40 @@ public class P143MaxSubArray {
 
     }
 
+    //=========================附加要求:找到最大值的同时,找出子数组的=======================
+    private static int begin = 0;//记录最大子数组起始位置
+    private static int end = 0;//记录最大子数组结束位置
+    public static int findMaxSubArray_3(int[] arr){
+        int n = arr.length;
+        int maxSum = Integer.MIN_VALUE; //子数组最大值
+        int nSum = 0;//包含子数组的最后一位的最大值
+        int nStart = 0;
+        for(int i=0;i<n;i++){
 
+            if(nSum < 0){  //如果子数组的和小于0,则nSum等于当前arr[i]的值
+                nSum = arr[i];
+                nStart = i;
+            }else {
+                nSum += arr[i]; //否则nSum等于当前值加上arr[i]
+            }
+            if(nSum > maxSum){
+                maxSum = nSum;
+                begin = nStart;
+                end = i;
+            }
+
+        }
+        return maxSum;
+
+    }
+
+    public static int getBegin() {
+        return begin;
+    }
+
+    public static int getEnd() {
+        return end;
+    }
 
     public static void main(String[] args){
 
@@ -92,18 +127,14 @@ public class P143MaxSubArray {
         }
 
         //=========================方法一:蛮干法=======================
-        int maxSum = findMaxSubArray_2(arr);
+        int maxSum = findMaxSubArray_3(arr);
 
         System.out.print("数组中最大子数组的最大和值为:"+maxSum);
 
-
+        P143MaxSubArray t = new P143MaxSubArray();
+        System.out.print("\n最大子数组和对应的数组起始位置分别为:"+ getBegin()+"和"+ getEnd());
 
     }
-
-
-
-
-
 
 
 }
