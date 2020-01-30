@@ -13,6 +13,7 @@ import java.util.Scanner;
  *           第一次迭代: {a}
  *           第二次迭代: {a,ab,b}
  *           第三次迭代: {a,ab,b,ac,abc,bc,c}
+ *          时间复杂度: O(2^n)
  * @Author:xuwen
  * @Date: 2020/1/29 下午4:05
  **/
