@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd369cd7-e47b-4682-9413-62bf369c8faf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/JavaAlgorithmInterview/ArrayList/P151FindMidNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaAlgorithmInterview/ArrayList/P153GetAllSubSet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,20 +54,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.P151FindMidNum">
-    <configuration name="P130FindSmallK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaAlgorithmInterview.ArrayList.P130FindSmallK" />
-      <module name="Java Study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JavaAlgorithmInterview.ArrayList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.P153GetAllSubSet">
     <configuration name="P132FindTop3Num" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaAlgorithmInterview.ArrayList.P132FindTop3Num" />
       <module name="Java Study" />
@@ -120,20 +107,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="P153GetAllSubSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaAlgorithmInterview.ArrayList.P153GetAllSubSet" />
+      <module name="Java Study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JavaAlgorithmInterview.ArrayList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.P130FindSmallK" />
       <item itemvalue="Application.P132FindTop3Num" />
       <item itemvalue="Application.P133FindDisInList" />
       <item itemvalue="Application.P143MaxSubArray" />
       <item itemvalue="Application.P151FindMidNum" />
+      <item itemvalue="Application.P153GetAllSubSet" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.P153GetAllSubSet" />
         <item itemvalue="Application.P151FindMidNum" />
         <item itemvalue="Application.P143MaxSubArray" />
         <item itemvalue="Application.P133FindDisInList" />
         <item itemvalue="Application.P132FindTop3Num" />
-        <item itemvalue="Application.P130FindSmallK" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +195,8 @@
       <workItem from="1580090029926" duration="12266000" />
       <workItem from="1580184199326" duration="10718000" />
       <workItem from="1580262837739" duration="6019000" />
-      <workItem from="1580279539018" duration="4631000" />
+      <workItem from="1580279539018" duration="5601000" />
+      <workItem from="1580349198303" duration="1928000" />
     </task>
     <servers />
   </component>
@@ -232,26 +233,26 @@
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state x="1049" y="360" key="FileChooserDialogImpl/0.0.1920.1037@0.0.1920.1037" timestamp="1580279700531" />
-    <state width="1874" height="250" key="GridCell.Tab.0.bottom" timestamp="1580272119546">
+    <state width="1874" height="250" key="GridCell.Tab.0.bottom" timestamp="1580351146848">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state width="1850" height="211" key="GridCell.Tab.0.bottom/0.0.1920.1016@0.0.1920.1016" timestamp="1577342551188" />
-    <state width="1874" height="250" key="GridCell.Tab.0.bottom/0.0.1920.1037@0.0.1920.1037" timestamp="1580272119546" />
-    <state width="1874" height="250" key="GridCell.Tab.0.center" timestamp="1580272119546">
+    <state width="1874" height="250" key="GridCell.Tab.0.bottom/0.0.1920.1037@0.0.1920.1037" timestamp="1580351146848" />
+    <state width="1874" height="250" key="GridCell.Tab.0.center" timestamp="1580351146848">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state width="1850" height="211" key="GridCell.Tab.0.center/0.0.1920.1016@0.0.1920.1016" timestamp="1577342551188" />
-    <state width="1874" height="250" key="GridCell.Tab.0.center/0.0.1920.1037@0.0.1920.1037" timestamp="1580272119546" />
-    <state width="1874" height="250" key="GridCell.Tab.0.left" timestamp="1580272119545">
+    <state width="1874" height="250" key="GridCell.Tab.0.center/0.0.1920.1037@0.0.1920.1037" timestamp="1580351146848" />
+    <state width="1874" height="250" key="GridCell.Tab.0.left" timestamp="1580351146847">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state width="1850" height="211" key="GridCell.Tab.0.left/0.0.1920.1016@0.0.1920.1016" timestamp="1577342551187" />
-    <state width="1874" height="250" key="GridCell.Tab.0.left/0.0.1920.1037@0.0.1920.1037" timestamp="1580272119545" />
-    <state width="1874" height="250" key="GridCell.Tab.0.right" timestamp="1580272119546">
+    <state width="1874" height="250" key="GridCell.Tab.0.left/0.0.1920.1037@0.0.1920.1037" timestamp="1580351146847" />
+    <state width="1874" height="250" key="GridCell.Tab.0.right" timestamp="1580351146848">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state width="1850" height="211" key="GridCell.Tab.0.right/0.0.1920.1016@0.0.1920.1016" timestamp="1577342551188" />
-    <state width="1874" height="250" key="GridCell.Tab.0.right/0.0.1920.1037@0.0.1920.1037" timestamp="1580272119546" />
+    <state width="1874" height="250" key="GridCell.Tab.0.right/0.0.1920.1037@0.0.1920.1037" timestamp="1580351146848" />
     <state width="1874" height="330" key="GridCell.Tab.1.bottom" timestamp="1580272119543">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
@@ -277,10 +278,10 @@
     </state>
     <state x="266" y="0" key="SettingsEditor/0.0.1920.1016@0.0.1920.1016" timestamp="1577330511186" />
     <state x="775" y="97" key="SettingsEditor/0.0.1920.1037@0.0.1920.1037" timestamp="1579258503823" />
-    <state x="618" y="346" key="com.intellij.ide.util.TipDialog" timestamp="1580279543246">
+    <state x="618" y="346" key="com.intellij.ide.util.TipDialog" timestamp="1580349241586">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
-    <state x="618" y="346" key="com.intellij.ide.util.TipDialog/0.0.1920.1037@0.0.1920.1037" timestamp="1580279543246" />
+    <state x="618" y="346" key="com.intellij.ide.util.TipDialog/0.0.1920.1037@0.0.1920.1037" timestamp="1580349241586" />
     <state x="619" y="231" key="run.anything.popup" timestamp="1578743385927">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
