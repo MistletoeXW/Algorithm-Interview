@@ -98,7 +98,27 @@ public class T3FindRangeNum {
     }
 
     //======================方案三:数据映射法===========================
+    /*
+     * @Author: xw
+     * @Description: 在遍历的过程中,将数组中的值作为数组下标进行遍历,同时将对应下标的值改为相反数,
+     *               如果遍历到的位置为负数,则说明此数重复,如果不为负数则将此位置的数变为负数//TODO
+     * @Date: 下午4:06 2020/2/1
+     * @Param: [arr]
+     * @Return: int
+     **/
+    public static int findRangeNum_3(int[] arr){
 
+        int len = arr.length;
+        int i=0;
+        while(i<len){
+            if(arr[i] < 0)
+                break;
+            arr[i] *= -1;
+            //下一个遍历的位置为数组中的值为下标的位置
+            i = -1*arr[i];
+        }
+        return i;
+    }
 
 
 
@@ -114,7 +134,7 @@ public class T3FindRangeNum {
             arr[i] = Integer.parseInt(a[i]);
         }
 
-        int num = findRangeNum_2(arr);
+        int num = findRangeNum_3(arr);
         if (num != -1) {
             System.out.print("重复的数字为: " + num+"\n");
         }else
