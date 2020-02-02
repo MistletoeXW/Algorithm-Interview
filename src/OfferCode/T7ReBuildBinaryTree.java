@@ -39,7 +39,7 @@ public class T7ReBuildBinaryTree {
         //递归左子树,传入参数为:[先序遍历数组,先序遍历中下一个元素,根节点后连续leftTreeSize都是左子树,中序遍历头部]
         root.lchild = reBuildBinaryTree(pre,preL+1,preL+leftTreeSize,inL);
         //递归右子树,传入参数为:[先序遍历数组,根节点后连续leftTreeSize都是左子树加上1即为右子树的头部,右子树尾部,中序遍历头部+左子树的个数即为中序右子树的头部]
-        root.rchild = reBuildBinaryTree(pre,preL+leftTreeSize+1,preR,inL+ leftTreeSize);
+        root.rchild = reBuildBinaryTree(pre,preL+leftTreeSize+1,preR,inL+ leftTreeSize+1);
         return root;
     }
 
@@ -77,8 +77,19 @@ public class T7ReBuildBinaryTree {
 
         System.out.print("根据中序遍历和先序遍历创建二叉树!");
 
-        reBuildBinaryTree(pre,in);
+        TreeNode root = reBuildBinaryTree(pre,in);
 
+        System.out.print("\n二叉树的先序遍历结果为: ");
+        root.preOrder(root);
+
+        System.out.print("\n二叉树的中序遍历结果为: ");
+        root.inOrder(root);
+
+        System.out.print("\n二叉树的后序遍历结果为: ");
+        root.postOrder(root);
+
+        System.out.print("\n二叉树的层序遍历结果为: ");
+        root.floorOrder(root);
 
 
     }
