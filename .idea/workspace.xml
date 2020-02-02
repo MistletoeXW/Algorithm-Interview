@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd369cd7-e47b-4682-9413-62bf369c8faf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/OfferCode/T5ReplaceSpace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OfferCode/LNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OfferCode/T6PrintListFromTailToHead.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,20 +55,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.T5ReplaceSpace">
-    <configuration name="P183PermutationString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaAlgorithmInterview.StringList.P183PermutationString" />
-      <module name="Java Study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JavaAlgorithmInterview.StringList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.T6PrintListFromTailToHead">
     <configuration name="P192ReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaAlgorithmInterview.StringList.P192ReverseString" />
       <module name="Java Study" />
@@ -120,20 +108,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="T6PrintListFromTailToHead" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OfferCode.T6PrintListFromTailToHead" />
+      <module name="Java Study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OfferCode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.P183PermutationString" />
       <item itemvalue="Application.P192ReverseString" />
       <item itemvalue="Application.T3FindRangeNum" />
       <item itemvalue="Application.T4FindInSpecitalList" />
       <item itemvalue="Application.T5ReplaceSpace" />
+      <item itemvalue="Application.T6PrintListFromTailToHead" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.T6PrintListFromTailToHead" />
         <item itemvalue="Application.T5ReplaceSpace" />
         <item itemvalue="Application.T4FindInSpecitalList" />
         <item itemvalue="Application.T3FindRangeNum" />
         <item itemvalue="Application.P192ReverseString" />
-        <item itemvalue="Application.P183PermutationString" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +200,7 @@
       <workItem from="1580349198303" duration="17498000" />
       <workItem from="1580433207989" duration="20940000" />
       <workItem from="1580527779978" duration="12193000" />
-      <workItem from="1580613573043" duration="5374000" />
+      <workItem from="1580613573043" duration="8873000" />
     </task>
     <servers />
   </component>
@@ -236,26 +237,26 @@
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state x="1049" y="360" key="FileChooserDialogImpl/0.0.1920.1037@0.0.1920.1037" timestamp="1580279700531" />
-    <state width="1230" height="249" key="GridCell.Tab.0.bottom" timestamp="1580614371943">
+    <state width="1215" height="249" key="GridCell.Tab.0.bottom" timestamp="1580628153575">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state width="1850" height="211" key="GridCell.Tab.0.bottom/0.0.1920.1016@0.0.1920.1016" timestamp="1577342551188" />
-    <state width="1230" height="249" key="GridCell.Tab.0.bottom/0.0.1920.1037@0.0.1920.1037" timestamp="1580614371943" />
-    <state width="1230" height="249" key="GridCell.Tab.0.center" timestamp="1580614371942">
+    <state width="1215" height="249" key="GridCell.Tab.0.bottom/0.0.1920.1037@0.0.1920.1037" timestamp="1580628153575" />
+    <state width="1215" height="249" key="GridCell.Tab.0.center" timestamp="1580628153573">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state width="1850" height="211" key="GridCell.Tab.0.center/0.0.1920.1016@0.0.1920.1016" timestamp="1577342551188" />
-    <state width="1230" height="249" key="GridCell.Tab.0.center/0.0.1920.1037@0.0.1920.1037" timestamp="1580614371942" />
-    <state width="1230" height="249" key="GridCell.Tab.0.left" timestamp="1580614371942">
+    <state width="1215" height="249" key="GridCell.Tab.0.center/0.0.1920.1037@0.0.1920.1037" timestamp="1580628153573" />
+    <state width="1215" height="249" key="GridCell.Tab.0.left" timestamp="1580628153571">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state width="1850" height="211" key="GridCell.Tab.0.left/0.0.1920.1016@0.0.1920.1016" timestamp="1577342551187" />
-    <state width="1230" height="249" key="GridCell.Tab.0.left/0.0.1920.1037@0.0.1920.1037" timestamp="1580614371942" />
-    <state width="1230" height="249" key="GridCell.Tab.0.right" timestamp="1580614371942">
+    <state width="1215" height="249" key="GridCell.Tab.0.left/0.0.1920.1037@0.0.1920.1037" timestamp="1580628153571" />
+    <state width="1215" height="249" key="GridCell.Tab.0.right" timestamp="1580628153574">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state width="1850" height="211" key="GridCell.Tab.0.right/0.0.1920.1016@0.0.1920.1016" timestamp="1577342551188" />
-    <state width="1230" height="249" key="GridCell.Tab.0.right/0.0.1920.1037@0.0.1920.1037" timestamp="1580614371942" />
+    <state width="1215" height="249" key="GridCell.Tab.0.right/0.0.1920.1037@0.0.1920.1037" timestamp="1580628153574" />
     <state width="1232" height="329" key="GridCell.Tab.1.bottom" timestamp="1580553045808">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
