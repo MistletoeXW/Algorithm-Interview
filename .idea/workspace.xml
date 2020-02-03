@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd369cd7-e47b-4682-9413-62bf369c8faf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/OfferCode/T10_1Fibonacci.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -200,7 +199,7 @@
       <workItem from="1580433207989" duration="20940000" />
       <workItem from="1580527779978" duration="12193000" />
       <workItem from="1580613573043" duration="15256000" />
-      <workItem from="1580696946946" duration="6021000" />
+      <workItem from="1580696946946" duration="7229000" />
     </task>
     <servers />
   </component>
