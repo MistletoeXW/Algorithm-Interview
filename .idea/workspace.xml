@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd369cd7-e47b-4682-9413-62bf369c8faf" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/OfferCode/T10_2JumpFloor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +54,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.T10_1Fibonacci">
+  <component name="RunManager" selected="Application.T10_2JumpFloor">
     <configuration name="T10_1Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OfferCode.T10_1Fibonacci" />
       <module name="Java Study" />
@@ -67,8 +68,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T4FindInSpecitalList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OfferCode.T4FindInSpecitalList" />
+    <configuration name="T10_2JumpFloor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OfferCode.T10_2JumpFloor" />
       <module name="Java Study" />
       <extension name="coverage">
         <pattern>
@@ -120,19 +121,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.T4FindInSpecitalList" />
       <item itemvalue="Application.T5ReplaceSpace" />
       <item itemvalue="Application.T6PrintListFromTailToHead" />
       <item itemvalue="Application.T7ReBuildBinaryTree" />
       <item itemvalue="Application.T10_1Fibonacci" />
+      <item itemvalue="Application.T10_2JumpFloor" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.T10_2JumpFloor" />
         <item itemvalue="Application.T10_1Fibonacci" />
         <item itemvalue="Application.T7ReBuildBinaryTree" />
         <item itemvalue="Application.T6PrintListFromTailToHead" />
         <item itemvalue="Application.T5ReplaceSpace" />
-        <item itemvalue="Application.T4FindInSpecitalList" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +200,7 @@
       <workItem from="1580433207989" duration="20940000" />
       <workItem from="1580527779978" duration="12193000" />
       <workItem from="1580613573043" duration="15256000" />
-      <workItem from="1580696946946" duration="7229000" />
+      <workItem from="1580696946946" duration="10280000" />
     </task>
     <servers />
   </component>
