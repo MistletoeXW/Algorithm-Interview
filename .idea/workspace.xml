@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd369cd7-e47b-4682-9413-62bf369c8faf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/OfferCode/T12FindRoadInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OfferCode/T13MovingCount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +54,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.T12FindRoadInArray">
+  <component name="RunManager" selected="Application.T13MovingCount">
     <configuration name="T10_1Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OfferCode.T10_1Fibonacci" />
       <module name="Java Study" />
@@ -107,8 +107,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T7ReBuildBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OfferCode.T7ReBuildBinaryTree" />
+    <configuration name="T13MovingCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OfferCode.T13MovingCount" />
       <module name="Java Study" />
       <extension name="coverage">
         <pattern>
@@ -121,19 +121,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.T7ReBuildBinaryTree" />
       <item itemvalue="Application.T10_1Fibonacci" />
       <item itemvalue="Application.T10_2JumpFloor" />
       <item itemvalue="Application.T11FindMinNumInRotateArray" />
       <item itemvalue="Application.T12FindRoadInArray" />
+      <item itemvalue="Application.T13MovingCount" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.T13MovingCount" />
         <item itemvalue="Application.T12FindRoadInArray" />
         <item itemvalue="Application.T11FindMinNumInRotateArray" />
         <item itemvalue="Application.T10_2JumpFloor" />
         <item itemvalue="Application.T10_1Fibonacci" />
-        <item itemvalue="Application.T7ReBuildBinaryTree" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +202,7 @@
       <workItem from="1580613573043" duration="15256000" />
       <workItem from="1580696946946" duration="12085000" />
       <workItem from="1580780669687" duration="10334000" />
-      <workItem from="1580798022063" duration="3352000" />
+      <workItem from="1580798022063" duration="6109000" />
     </task>
     <servers />
   </component>
@@ -239,46 +239,46 @@
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state x="1049" y="360" key="FileChooserDialogImpl/0.0.1920.1037@0.0.1920.1037" timestamp="1580279700531" />
-    <state width="1183" height="249" key="GridCell.Tab.0.bottom" timestamp="1580800828071">
+    <state width="1183" height="249" key="GridCell.Tab.0.bottom" timestamp="1580801583283">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state width="1850" height="211" key="GridCell.Tab.0.bottom/0.0.1920.1016@0.0.1920.1016" timestamp="1577342551188" />
-    <state width="1183" height="249" key="GridCell.Tab.0.bottom/0.0.1920.1037@0.0.1920.1037" timestamp="1580800828071" />
-    <state width="1183" height="249" key="GridCell.Tab.0.center" timestamp="1580800828070">
+    <state width="1183" height="249" key="GridCell.Tab.0.bottom/0.0.1920.1037@0.0.1920.1037" timestamp="1580801583283" />
+    <state width="1183" height="249" key="GridCell.Tab.0.center" timestamp="1580801583282">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state width="1850" height="211" key="GridCell.Tab.0.center/0.0.1920.1016@0.0.1920.1016" timestamp="1577342551188" />
-    <state width="1183" height="249" key="GridCell.Tab.0.center/0.0.1920.1037@0.0.1920.1037" timestamp="1580800828070" />
-    <state width="1183" height="249" key="GridCell.Tab.0.left" timestamp="1580800828070">
+    <state width="1183" height="249" key="GridCell.Tab.0.center/0.0.1920.1037@0.0.1920.1037" timestamp="1580801583282" />
+    <state width="1183" height="249" key="GridCell.Tab.0.left" timestamp="1580801583281">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state width="1850" height="211" key="GridCell.Tab.0.left/0.0.1920.1016@0.0.1920.1016" timestamp="1577342551187" />
-    <state width="1183" height="249" key="GridCell.Tab.0.left/0.0.1920.1037@0.0.1920.1037" timestamp="1580800828070" />
-    <state width="1183" height="249" key="GridCell.Tab.0.right" timestamp="1580800828071">
+    <state width="1183" height="249" key="GridCell.Tab.0.left/0.0.1920.1037@0.0.1920.1037" timestamp="1580801583281" />
+    <state width="1183" height="249" key="GridCell.Tab.0.right" timestamp="1580801583282">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state width="1850" height="211" key="GridCell.Tab.0.right/0.0.1920.1016@0.0.1920.1016" timestamp="1577342551188" />
-    <state width="1183" height="249" key="GridCell.Tab.0.right/0.0.1920.1037@0.0.1920.1037" timestamp="1580800828071" />
-    <state width="1183" height="329" key="GridCell.Tab.1.bottom" timestamp="1580800809675">
+    <state width="1183" height="249" key="GridCell.Tab.0.right/0.0.1920.1037@0.0.1920.1037" timestamp="1580801583282" />
+    <state width="1183" height="329" key="GridCell.Tab.1.bottom" timestamp="1580801566427">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state width="1850" height="285" key="GridCell.Tab.1.bottom/0.0.1920.1016@0.0.1920.1016" timestamp="1577334376574" />
-    <state width="1183" height="329" key="GridCell.Tab.1.bottom/0.0.1920.1037@0.0.1920.1037" timestamp="1580800809675" />
-    <state width="1183" height="329" key="GridCell.Tab.1.center" timestamp="1580800809675">
+    <state width="1183" height="329" key="GridCell.Tab.1.bottom/0.0.1920.1037@0.0.1920.1037" timestamp="1580801566427" />
+    <state width="1183" height="329" key="GridCell.Tab.1.center" timestamp="1580801566427">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state width="1850" height="285" key="GridCell.Tab.1.center/0.0.1920.1016@0.0.1920.1016" timestamp="1577334376572" />
-    <state width="1183" height="329" key="GridCell.Tab.1.center/0.0.1920.1037@0.0.1920.1037" timestamp="1580800809675" />
-    <state width="1183" height="329" key="GridCell.Tab.1.left" timestamp="1580800809675">
+    <state width="1183" height="329" key="GridCell.Tab.1.center/0.0.1920.1037@0.0.1920.1037" timestamp="1580801566427" />
+    <state width="1183" height="329" key="GridCell.Tab.1.left" timestamp="1580801566427">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state width="1850" height="285" key="GridCell.Tab.1.left/0.0.1920.1016@0.0.1920.1016" timestamp="1577334376571" />
-    <state width="1183" height="329" key="GridCell.Tab.1.left/0.0.1920.1037@0.0.1920.1037" timestamp="1580800809675" />
-    <state width="1183" height="329" key="GridCell.Tab.1.right" timestamp="1580800809675">
+    <state width="1183" height="329" key="GridCell.Tab.1.left/0.0.1920.1037@0.0.1920.1037" timestamp="1580801566427" />
+    <state width="1183" height="329" key="GridCell.Tab.1.right" timestamp="1580801566427">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state width="1850" height="285" key="GridCell.Tab.1.right/0.0.1920.1016@0.0.1920.1016" timestamp="1577334376573" />
-    <state width="1183" height="329" key="GridCell.Tab.1.right/0.0.1920.1037@0.0.1920.1037" timestamp="1580800809675" />
+    <state width="1183" height="329" key="GridCell.Tab.1.right/0.0.1920.1037@0.0.1920.1037" timestamp="1580801566427" />
     <state x="775" y="97" key="SettingsEditor" timestamp="1579258503823">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
@@ -296,10 +296,10 @@
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state x="619" y="231" key="run.anything.popup/0.0.1920.1037@0.0.1920.1037" timestamp="1578743385927" />
-    <state x="623" y="228" width="672" height="678" key="search.everywhere.popup" timestamp="1580632983890">
+    <state x="623" y="228" width="672" height="678" key="search.everywhere.popup" timestamp="1580803711209">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
-    <state x="623" y="228" width="672" height="678" key="search.everywhere.popup/0.0.1920.1037@0.0.1920.1037" timestamp="1580632983890" />
+    <state x="623" y="228" width="672" height="678" key="search.everywhere.popup/0.0.1920.1037@0.0.1920.1037" timestamp="1580803711209" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -386,7 +386,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/OfferCode/T12FindRoadInArray.java</url>
-          <line>90</line>
+          <line>91</line>
           <option name="timeStamp" value="38" />
         </line-breakpoint>
       </breakpoints>
