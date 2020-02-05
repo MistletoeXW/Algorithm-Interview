@@ -118,8 +118,6 @@ public class T15SortAndSearch {
             arr[i] = temp;
             AdjustDown(arr,1,i-1);
         }
-
-
     }
 
 

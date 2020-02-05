@@ -21,6 +21,8 @@ import java.util.Arrays;
 public class T10_3JumpFloorII {
 
     //======================方法一: 动态规划=======================
+    //分析子问题,跳上n的台阶,可以从n-1级跳1上去,也可以从n-2级跳2级上去...
+    //故f(n) = f(n-1) + f(n-2) + ... + f(0)
     public static int JumpFloorII_1(int n){
 
         int[] dp = new int[n];
