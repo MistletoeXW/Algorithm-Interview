@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd369cd7-e47b-4682-9413-62bf369c8faf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/OfferCode/T14integerBreak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OfferCode/T15SortAndSearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OfferCode/T14integerBreak.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OfferCode/T14integerBreak.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,7 +204,7 @@
       <workItem from="1580696946946" duration="12085000" />
       <workItem from="1580780669687" duration="10334000" />
       <workItem from="1580798022063" duration="7472000" />
-      <workItem from="1580870611774" duration="4738000" />
+      <workItem from="1580870611774" duration="9866000" />
     </task>
     <servers />
   </component>
