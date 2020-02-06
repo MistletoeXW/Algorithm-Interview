@@ -13,8 +13,6 @@ import java.util.Scanner;
  *       解题思路: 回溯法
  *               回溯法是一种暴力搜索方法,通过搜索所有可能的结果来求解问题.
  *               回溯法在一次搜索结束时需要进行回溯将这一次搜索过程中设置的状态进行清除,从而开始一次新的搜索过程
- *
- *
  * @Author:xuwen
  * @Date: 2020/2/4 下午1:29
  **/
@@ -53,6 +51,15 @@ public class T12FindRoadInArray {
         return false;
     }
 
+    /*
+     * @Author: xw
+     * @Description:  例如上图示例中，从 f 开始，下一步有 4 种搜索可能，
+     *                如果先搜索 b，需要将 b 标记为已经使用，防止重复使用。
+     *                在这一次搜索结束之后，需要将 b 的已经使用状态清除，并搜索 c。//TODO
+     * @Date: 下午6:00 2020/2/5
+     * @Param: [matrix, str, marked, pathLen, row, col]
+     * @Return: boolean
+     **/
     public boolean backtracking(char[][] matrix,char[] str,boolean[][] marked,
                                 int pathLen,int row,int col){
 
@@ -63,7 +70,7 @@ public class T12FindRoadInArray {
             return false;
         }
 
-        //标志已经遍历过
+        //标记为已经使用，防止重复使用
         marked[row][col] = true;
         //如果矩阵中坐标为(row,col)的格子和路径字符串中下标为pathLength的字符一样时
         //从相邻的上下左右定位pathLength+1字符一样的位置
@@ -74,6 +81,7 @@ public class T12FindRoadInArray {
                 return true;
             }
         }
+        //在这一次搜索结束之后，需要将此位置的值已经使用状态清除
         marked[row][col] = false;
         return false;
 

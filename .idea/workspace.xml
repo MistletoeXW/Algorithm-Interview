@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd369cd7-e47b-4682-9413-62bf369c8faf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/OfferCode/T11_2SortAges.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OfferCode/T16Power.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OfferCode/T10_1Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OfferCode/T10_1Fibonacci.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OfferCode/T10_3JumpFloorII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OfferCode/T10_3JumpFloorII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OfferCode/T15SortAndSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OfferCode/T15SortAndSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Study/OfferCode/T12FindRoadInArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Study/OfferCode/T12FindRoadInArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OfferCode/T12FindRoadInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OfferCode/T12FindRoadInArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +56,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.T11_2SortAges">
+  <component name="RunManager" selected="Application.T12FindRoadInArray">
     <configuration name="T11FindMinNumInRotateArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OfferCode.T11FindMinNumInRotateArray" />
       <module name="Java Study" />
@@ -132,10 +131,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.T12FindRoadInArray" />
         <item itemvalue="Application.T11_2SortAges" />
         <item itemvalue="Application.T14integerBreak" />
         <item itemvalue="Application.T13MovingCount" />
-        <item itemvalue="Application.T12FindRoadInArray" />
         <item itemvalue="Application.T11FindMinNumInRotateArray" />
       </list>
     </recent_temporary>
@@ -206,7 +205,8 @@
       <workItem from="1580696946946" duration="12085000" />
       <workItem from="1580780669687" duration="10334000" />
       <workItem from="1580798022063" duration="7472000" />
-      <workItem from="1580870611774" duration="14498000" />
+      <workItem from="1580870611774" duration="17229000" />
+      <workItem from="1580952009470" duration="3872000" />
     </task>
     <servers />
   </component>
@@ -243,26 +243,26 @@
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state x="1049" y="360" key="FileChooserDialogImpl/0.0.1920.1037@0.0.1920.1037" timestamp="1580279700531" />
-    <state width="1191" height="249" key="GridCell.Tab.0.bottom" timestamp="1580875993601">
+    <state width="1191" height="249" key="GridCell.Tab.0.bottom" timestamp="1580906093151">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state width="1850" height="211" key="GridCell.Tab.0.bottom/0.0.1920.1016@0.0.1920.1016" timestamp="1577342551188" />
-    <state width="1191" height="249" key="GridCell.Tab.0.bottom/0.0.1920.1037@0.0.1920.1037" timestamp="1580875993601" />
-    <state width="1191" height="249" key="GridCell.Tab.0.center" timestamp="1580875993601">
+    <state width="1191" height="249" key="GridCell.Tab.0.bottom/0.0.1920.1037@0.0.1920.1037" timestamp="1580906093151" />
+    <state width="1191" height="249" key="GridCell.Tab.0.center" timestamp="1580906093151">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state width="1850" height="211" key="GridCell.Tab.0.center/0.0.1920.1016@0.0.1920.1016" timestamp="1577342551188" />
-    <state width="1191" height="249" key="GridCell.Tab.0.center/0.0.1920.1037@0.0.1920.1037" timestamp="1580875993601" />
-    <state width="1191" height="249" key="GridCell.Tab.0.left" timestamp="1580875993600">
+    <state width="1191" height="249" key="GridCell.Tab.0.center/0.0.1920.1037@0.0.1920.1037" timestamp="1580906093151" />
+    <state width="1191" height="249" key="GridCell.Tab.0.left" timestamp="1580906093151">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state width="1850" height="211" key="GridCell.Tab.0.left/0.0.1920.1016@0.0.1920.1016" timestamp="1577342551187" />
-    <state width="1191" height="249" key="GridCell.Tab.0.left/0.0.1920.1037@0.0.1920.1037" timestamp="1580875993600" />
-    <state width="1191" height="249" key="GridCell.Tab.0.right" timestamp="1580875993601">
+    <state width="1191" height="249" key="GridCell.Tab.0.left/0.0.1920.1037@0.0.1920.1037" timestamp="1580906093151" />
+    <state width="1191" height="249" key="GridCell.Tab.0.right" timestamp="1580906093151">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state width="1850" height="211" key="GridCell.Tab.0.right/0.0.1920.1016@0.0.1920.1016" timestamp="1577342551188" />
-    <state width="1191" height="249" key="GridCell.Tab.0.right/0.0.1920.1037@0.0.1920.1037" timestamp="1580875993601" />
+    <state width="1191" height="249" key="GridCell.Tab.0.right/0.0.1920.1037@0.0.1920.1037" timestamp="1580906093151" />
     <state width="1191" height="329" key="GridCell.Tab.1.bottom" timestamp="1580875894756">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
@@ -288,10 +288,10 @@
     </state>
     <state x="266" y="0" key="SettingsEditor/0.0.1920.1016@0.0.1920.1016" timestamp="1577330511186" />
     <state x="775" y="97" key="SettingsEditor/0.0.1920.1037@0.0.1920.1037" timestamp="1579258503823" />
-    <state x="618" y="346" key="com.intellij.ide.util.TipDialog" timestamp="1580870612133">
+    <state x="618" y="346" key="com.intellij.ide.util.TipDialog" timestamp="1580952009904">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
-    <state x="618" y="346" key="com.intellij.ide.util.TipDialog/0.0.1920.1037@0.0.1920.1037" timestamp="1580870612133" />
+    <state x="618" y="346" key="com.intellij.ide.util.TipDialog/0.0.1920.1037@0.0.1920.1037" timestamp="1580952009904" />
     <state x="697" y="278" key="extract.method.dialog" timestamp="1580460786615">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
@@ -385,12 +385,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/OfferCode/T12FindRoadInArray.java</url>
-          <line>32</line>
+          <line>30</line>
           <option name="timeStamp" value="37" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/OfferCode/T12FindRoadInArray.java</url>
-          <line>91</line>
+          <line>99</line>
           <option name="timeStamp" value="38" />
         </line-breakpoint>
       </breakpoints>
