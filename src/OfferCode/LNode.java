@@ -24,4 +24,13 @@ public class LNode {//Java中使用引用来建立单链表
         }
         return head;
     }
+
+    //遍历打印出链表元素
+    public void printNode(LNode head){
+        LNode p = head.next;
+        while(p!=null){
+            System.out.print(p.data+" ");
+            p=p.next;
+        }
+    }
 }
