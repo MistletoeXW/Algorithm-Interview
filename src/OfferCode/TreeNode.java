@@ -1,5 +1,6 @@
 package OfferCode;
 
+import javax.transaction.TransactionRequiredException;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Stack;
@@ -16,6 +17,28 @@ public class TreeNode {
 
     public TreeNode(int data) {
         this.data = data;
+    }
+
+    /*
+     * @Author: xw
+     * @Description: 利用中序遍历,将数组构建成一颗二叉树//TODO
+     * @Date: 下午3:12 2020/2/7
+     * @Param: [arr]
+     * @Return: OfferCode.TreeNode
+     **/
+    public TreeNode buildBinaryTree(int[] arr,int low,int high){
+
+        if(low<high){
+            int mid = (low+high+1)/2;
+            //树的根结点为数组的中间元素
+            TreeNode root = new TreeNode(arr[mid]);
+            //递归左半部分数组构造左子树
+            root.lchild = buildBinaryTree(arr,low,mid-1);
+            //递归右半数组构造右子树
+            root.rchild = buildBinaryTree(arr,mid+1,high);
+            return root;
+        }else
+            return null;
     }
 
     //=====================二叉树的几种遍历实现,使用非递归方法===============
