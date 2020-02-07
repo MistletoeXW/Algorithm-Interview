@@ -19,6 +19,10 @@ import java.util.Scanner;
  *         方案二: 回溯法
  *                由于 n 可能会非常大，因此不能直接用 int 表示数字，而是用 char 数组进行存储。
  *                使用回溯法得到所有的数。
+ *                其实就是得到n个从0到9的全排列,把每一位数字都从0到9排列一遍,就得到所有的十进制数
+ *                位置是依次放进去数字的，这可以用递归,每个位置上0到9的十种情况可以用for循环来遍历。
+ *                然后设置下一位
+ *                递归结束的条件就是我们已经设置了数字的最后一位
  * @Author:xuwen
  * @Date: 2020/2/6 下午3:10
  **/
@@ -91,14 +95,22 @@ public class T17PrintNum {
     }
 
     //===========================回溯法=======================
-    public void printToMaxOfNum(int n){
+    public void printToMaxOfNum_2(int n){
         if(n<=0)
             return;
         char[] number = new char[n];
+
         printToMaxOfNum(number,0);
     }
 
-
+    /*
+     * @Author: xw
+     * @Description: 用递归很容易表示,数字中每一位都从0-9中的一个数,然后设置下一位
+     *               递归结束的条件就是我们已经设置了数字的最后一位//TODO
+     * @Date: 下午2:17 2020/2/7
+     * @Param: [number, digit]
+     * @Return: void
+     **/
     public void  printToMaxOfNum(char[] number,int digit){
         if(digit == number.length){
             printNumber(number);
@@ -121,7 +133,6 @@ public class T17PrintNum {
         while(index < number.length)
             System.out.print(number[index++]);
         System.out.println();
-
     }
 
 
@@ -134,7 +145,7 @@ public class T17PrintNum {
 
         System.out.print("打印出数为:\n");
         T17PrintNum object = new T17PrintNum();
-        object.PrintToMaxOfNums(n);
+        object.printToMaxOfNum_2(n);
 
     }
 
