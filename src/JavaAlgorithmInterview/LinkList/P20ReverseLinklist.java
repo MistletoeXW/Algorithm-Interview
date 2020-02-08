@@ -1,7 +1,7 @@
 package JavaAlgorithmInterview.LinkList;
 
 //实现链表的逆序  P20
-//1. 方法一：就地置逆法，设置pre p q 三个指针。太麻烦一般不用
+//1. 方法一：就地置逆法，设置pre p q 三个指针,太麻烦一般不用
 //2. 方法二：插入法，使用头插法
 //3. 方法三：递归法
 public class P20ReverseLinklist {
