@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fd369cd7-e47b-4682-9413-62bf369c8faf" name="Default" comment="">
       <change afterPath="$PROJECT_DIR$/src/OfferCode/T22FindKInLinkList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OfferCode/T23FindLoopEnterInLinkLIst.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -209,6 +210,7 @@
       <workItem from="1581047680538" duration="13336000" />
       <workItem from="1581079313436" duration="1953000" />
       <workItem from="1581136938744" duration="9416000" />
+      <workItem from="1581146386967" duration="2677000" />
     </task>
     <servers />
   </component>
@@ -290,10 +292,10 @@
     </state>
     <state x="266" y="0" key="SettingsEditor/0.0.1920.1016@0.0.1920.1016" timestamp="1577330511186" />
     <state x="775" y="97" key="SettingsEditor/0.0.1920.1037@0.0.1920.1037" timestamp="1579258503823" />
-    <state x="618" y="346" key="com.intellij.ide.util.TipDialog" timestamp="1581136940823">
+    <state x="618" y="346" key="com.intellij.ide.util.TipDialog" timestamp="1581146387801">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
-    <state x="618" y="346" key="com.intellij.ide.util.TipDialog/0.0.1920.1037@0.0.1920.1037" timestamp="1581136940823" />
+    <state x="618" y="346" key="com.intellij.ide.util.TipDialog/0.0.1920.1037@0.0.1920.1037" timestamp="1581146387801" />
     <state x="697" y="278" key="extract.method.dialog" timestamp="1580460786615">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
