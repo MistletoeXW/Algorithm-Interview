@@ -30,7 +30,7 @@ public class LNode {//Java中使用引用来建立单链表
         LNode p = head.next;
         while(p!=null){
             System.out.print(p.data+" ");
-            p=p.next;
+            p = p.next;
         }
     }
 }

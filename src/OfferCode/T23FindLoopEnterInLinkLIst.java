@@ -19,6 +19,9 @@ package OfferCode;
 public class T23FindLoopEnterInLinkLIst {
 
     public int findLoopEnter(LNode head){
+        if(head.next==null)
+            return -1;
+
         //首先找到快慢指针的相遇点
         LNode p = head;
         LNode q = head;
