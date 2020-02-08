@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd369cd7-e47b-4682-9413-62bf369c8faf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/OfferCode/T21ReOrderArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OfferCode/T22FindKInLinkList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -208,7 +208,7 @@
       <workItem from="1580987365426" duration="1000" />
       <workItem from="1581047680538" duration="13336000" />
       <workItem from="1581079313436" duration="1953000" />
-      <workItem from="1581136938744" duration="7847000" />
+      <workItem from="1581136938744" duration="9416000" />
     </task>
     <servers />
   </component>
