@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd369cd7-e47b-4682-9413-62bf369c8faf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/OfferCode/T30GetMinNumInStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OfferCode/T31IsPopOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OfferCode/T32_1FloorOrderPrint.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Study/JavaAlgorithmInterview/LinkList/P20ReverseLinklist.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Study/JavaAlgorithmInterview/LinkList/P20ReverseLinklist.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,13 +55,13 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.T29PrintMatrixList">
-    <configuration name="T18_2DeleteRangeNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OfferCode.T18_2DeleteRangeNode" />
+  <component name="RunManager" selected="Application.P20ReverseLinklist">
+    <configuration name="P20ReverseLinklist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaAlgorithmInterview.LinkList.P20ReverseLinklist" />
       <module name="Java Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OfferCode.*" />
+          <option name="PATTERN" value="JavaAlgorithmInterview.LinkList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,19 +122,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.T18_2DeleteRangeNode" />
       <item itemvalue="Application.T19StringMatch" />
       <item itemvalue="Application.T24ReverseList" />
       <item itemvalue="Application.T25MergeTwoLinkList" />
       <item itemvalue="Application.T29PrintMatrixList" />
+      <item itemvalue="Application.P20ReverseLinklist" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.P20ReverseLinklist" />
         <item itemvalue="Application.T29PrintMatrixList" />
         <item itemvalue="Application.T25MergeTwoLinkList" />
         <item itemvalue="Application.T24ReverseList" />
         <item itemvalue="Application.T19StringMatch" />
-        <item itemvalue="Application.T18_2DeleteRangeNode" />
       </list>
     </recent_temporary>
   </component>
@@ -211,7 +211,9 @@
       <workItem from="1581079313436" duration="1953000" />
       <workItem from="1581136938744" duration="9416000" />
       <workItem from="1581146386967" duration="8005000" />
-      <workItem from="1581225474161" duration="10249000" />
+      <workItem from="1581225474161" duration="12100000" />
+      <workItem from="1581250650849" duration="2144000" />
+      <workItem from="1581311438195" duration="2833000" />
     </task>
     <servers />
   </component>
@@ -248,55 +250,55 @@
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state x="1049" y="360" key="FileChooserDialogImpl/0.0.1920.1037@0.0.1920.1037" timestamp="1580279700531" />
-    <state width="1220" height="248" key="GridCell.Tab.0.bottom" timestamp="1581232577795">
+    <state width="1874" height="329" key="GridCell.Tab.0.bottom" timestamp="1581255768646">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state width="1850" height="211" key="GridCell.Tab.0.bottom/0.0.1920.1016@0.0.1920.1016" timestamp="1577342551188" />
-    <state width="1220" height="248" key="GridCell.Tab.0.bottom/0.0.1920.1037@0.0.1920.1037" timestamp="1581232577795" />
-    <state width="1220" height="248" key="GridCell.Tab.0.center" timestamp="1581232577795">
+    <state width="1874" height="329" key="GridCell.Tab.0.bottom/0.0.1920.1037@0.0.1920.1037" timestamp="1581255768646" />
+    <state width="1874" height="329" key="GridCell.Tab.0.center" timestamp="1581255768646">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state width="1850" height="211" key="GridCell.Tab.0.center/0.0.1920.1016@0.0.1920.1016" timestamp="1577342551188" />
-    <state width="1220" height="248" key="GridCell.Tab.0.center/0.0.1920.1037@0.0.1920.1037" timestamp="1581232577795" />
-    <state width="1220" height="248" key="GridCell.Tab.0.left" timestamp="1581232577794">
+    <state width="1874" height="329" key="GridCell.Tab.0.center/0.0.1920.1037@0.0.1920.1037" timestamp="1581255768646" />
+    <state width="1874" height="329" key="GridCell.Tab.0.left" timestamp="1581255768646">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state width="1850" height="211" key="GridCell.Tab.0.left/0.0.1920.1016@0.0.1920.1016" timestamp="1577342551187" />
-    <state width="1220" height="248" key="GridCell.Tab.0.left/0.0.1920.1037@0.0.1920.1037" timestamp="1581232577794" />
-    <state width="1220" height="248" key="GridCell.Tab.0.right" timestamp="1581232577795">
+    <state width="1874" height="329" key="GridCell.Tab.0.left/0.0.1920.1037@0.0.1920.1037" timestamp="1581255768646" />
+    <state width="1874" height="329" key="GridCell.Tab.0.right" timestamp="1581255768646">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state width="1850" height="211" key="GridCell.Tab.0.right/0.0.1920.1016@0.0.1920.1016" timestamp="1577342551188" />
-    <state width="1220" height="248" key="GridCell.Tab.0.right/0.0.1920.1037@0.0.1920.1037" timestamp="1581232577795" />
-    <state width="1232" height="329" key="GridCell.Tab.1.bottom" timestamp="1581154394628">
+    <state width="1874" height="329" key="GridCell.Tab.0.right/0.0.1920.1037@0.0.1920.1037" timestamp="1581255768646" />
+    <state width="1874" height="329" key="GridCell.Tab.1.bottom" timestamp="1581255768647">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state width="1850" height="285" key="GridCell.Tab.1.bottom/0.0.1920.1016@0.0.1920.1016" timestamp="1577334376574" />
-    <state width="1232" height="329" key="GridCell.Tab.1.bottom/0.0.1920.1037@0.0.1920.1037" timestamp="1581154394628" />
-    <state width="1232" height="329" key="GridCell.Tab.1.center" timestamp="1581154394628">
+    <state width="1874" height="329" key="GridCell.Tab.1.bottom/0.0.1920.1037@0.0.1920.1037" timestamp="1581255768647" />
+    <state width="1874" height="329" key="GridCell.Tab.1.center" timestamp="1581255768647">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state width="1850" height="285" key="GridCell.Tab.1.center/0.0.1920.1016@0.0.1920.1016" timestamp="1577334376572" />
-    <state width="1232" height="329" key="GridCell.Tab.1.center/0.0.1920.1037@0.0.1920.1037" timestamp="1581154394628" />
-    <state width="1232" height="329" key="GridCell.Tab.1.left" timestamp="1581154394628">
+    <state width="1874" height="329" key="GridCell.Tab.1.center/0.0.1920.1037@0.0.1920.1037" timestamp="1581255768647" />
+    <state width="1874" height="329" key="GridCell.Tab.1.left" timestamp="1581255768647">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state width="1850" height="285" key="GridCell.Tab.1.left/0.0.1920.1016@0.0.1920.1016" timestamp="1577334376571" />
-    <state width="1232" height="329" key="GridCell.Tab.1.left/0.0.1920.1037@0.0.1920.1037" timestamp="1581154394628" />
-    <state width="1232" height="329" key="GridCell.Tab.1.right" timestamp="1581154394628">
+    <state width="1874" height="329" key="GridCell.Tab.1.left/0.0.1920.1037@0.0.1920.1037" timestamp="1581255768647" />
+    <state width="1874" height="329" key="GridCell.Tab.1.right" timestamp="1581255768647">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state width="1850" height="285" key="GridCell.Tab.1.right/0.0.1920.1016@0.0.1920.1016" timestamp="1577334376573" />
-    <state width="1232" height="329" key="GridCell.Tab.1.right/0.0.1920.1037@0.0.1920.1037" timestamp="1581154394628" />
+    <state width="1874" height="329" key="GridCell.Tab.1.right/0.0.1920.1037@0.0.1920.1037" timestamp="1581255768647" />
     <state x="775" y="97" key="SettingsEditor" timestamp="1579258503823">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state x="266" y="0" key="SettingsEditor/0.0.1920.1016@0.0.1920.1016" timestamp="1577330511186" />
     <state x="775" y="97" key="SettingsEditor/0.0.1920.1037@0.0.1920.1037" timestamp="1579258503823" />
-    <state x="618" y="346" key="com.intellij.ide.util.TipDialog" timestamp="1581146387801">
+    <state x="618" y="346" key="com.intellij.ide.util.TipDialog" timestamp="1581311457093">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
-    <state x="618" y="346" key="com.intellij.ide.util.TipDialog/0.0.1920.1037@0.0.1920.1037" timestamp="1581146387801" />
+    <state x="618" y="346" key="com.intellij.ide.util.TipDialog/0.0.1920.1037@0.0.1920.1037" timestamp="1581311457093" />
     <state x="697" y="278" key="extract.method.dialog" timestamp="1580460786615">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
@@ -427,6 +429,16 @@
           <url>file://$PROJECT_DIR$/src/OfferCode/T24ReverseList.java</url>
           <line>51</line>
           <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/JavaAlgorithmInterview/LinkList/P20ReverseLinklist.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/JavaAlgorithmInterview/LinkList/P20ReverseLinklist.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="46" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
