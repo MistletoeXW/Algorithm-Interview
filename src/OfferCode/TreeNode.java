@@ -19,6 +19,10 @@ public class TreeNode {
         this.data = data;
     }
 
+    public TreeNode() {
+
+    }
+
     /*
      * @Author: xw
      * @Description: 利用中序遍历,将数组构建成一颗二叉树//TODO
@@ -28,7 +32,7 @@ public class TreeNode {
      **/
     public TreeNode buildBinaryTree(int[] arr,int low,int high){
 
-        if(low<high){
+        if(low <= high){
             int mid = (low+high+1)/2;
             //树的根结点为数组的中间元素
             TreeNode root = new TreeNode(arr[mid]);
@@ -39,6 +43,21 @@ public class TreeNode {
             return root;
         }else
             return null;
+    }
+
+    //按照数组的顺序建立二叉树
+    public TreeNode buildBinaryTreeByArray(Integer[] arr,int index){
+        TreeNode root = null;
+        if(index < arr.length){
+            Integer value = arr[index];
+            if(value == null)
+                return null;
+            root = new TreeNode(value);
+            root.lchild = buildBinaryTreeByArray(arr,2*index);
+            root.rchild = buildBinaryTreeByArray(arr,2*index+1);
+            return root;
+        }
+        return root;
     }
 
     //=====================二叉树的几种遍历实现,使用非递归方法===============

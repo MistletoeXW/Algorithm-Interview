@@ -1,8 +1,8 @@
 package OfferCode;
 
-import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
+import java.util.Scanner;
 
 /**
  * @ClassName: T32_1FloorOrderPrint
@@ -13,20 +13,20 @@ import java.util.Queue;
  **/
 public class T32_1FloorOrderPrint {
 
-    public void FloorOrderPrint(TreeNode root){
+    public int FloorOrderPrint(TreeNode root){
 
         if(root==null)
-            return;
+            return 0;
         //层序遍历的队列
         Queue<TreeNode> queue = new LinkedList<>();
         queue.add(root);
         int nextLevel=0; //表示下一层结点数
         int toBePrint=1; //表示当前所在层还未打印的结点数
-
+        int floor = 0; //统计层数
         while(!queue.isEmpty()){
 
             TreeNode p = queue.peek();
-            System.out.println(p.data+" ");
+            System.out.print(p.data+" ");
             if(p.lchild != null){
                 queue.add(p.lchild);
                 nextLevel++;
@@ -42,14 +42,34 @@ public class T32_1FloorOrderPrint {
 
             if(toBePrint == 0){
                 //也可以在这里统计层数
+                floor++;
                 System.out.println();
                 toBePrint = nextLevel;
                 nextLevel = 0;
             }
 
         }
+        return floor;
+    }
 
+    public static void main(String[] args){
 
+        System.out.print("请输入生成树的元素数组: ");
+        Scanner sc = new Scanner(System.in);
+        String[] s = sc.nextLine().trim().split(" ");
+        int[] arr = new int[s.length];
+        for(int i=0;i<s.length;i++){
+            arr[i] = Integer.parseInt(s[i]);
+        }
+        sc.close();
+
+        TreeNode root = new TreeNode();
+        root  = root.buildBinaryTree(arr,0,arr.length-1);
+
+        System.out.print("建立的二叉树每一层打印出来为:\n");
+        T32_1FloorOrderPrint object = new T32_1FloorOrderPrint();
+        int floor = object.FloorOrderPrint(root);
+        System.out.print("二叉树的层数为: "+ floor);
 
     }
 
