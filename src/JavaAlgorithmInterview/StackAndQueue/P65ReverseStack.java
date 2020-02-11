@@ -4,8 +4,8 @@ import java.util.Scanner;
 import java.util.Stack;
 
 /**
- * @ClassName:P65ReverseStack
- * @Description:翻转一个栈，使栈中的元素由原来的栈顶到栈底的顺序变为栈底到站顶的顺序
+ * @ClassName: P65ReverseStack
+ * @Description: 翻转一个栈，使栈中的元素由原来的栈顶到栈底的顺序变为栈底到站顶的顺序
  *              方法一：另外开辟一个辅助队列
  *              方法二：使用递归的方法实现，分为两步操作
  *                     操作一：将栈底元素移动到栈顶
