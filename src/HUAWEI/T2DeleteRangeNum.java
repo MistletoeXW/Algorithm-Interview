@@ -1,4 +1,4 @@
-package HUWEI;
+package HUAWEI;
 
 import java.util.TreeSet;
 

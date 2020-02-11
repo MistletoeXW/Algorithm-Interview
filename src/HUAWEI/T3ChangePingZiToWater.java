@@ -1,4 +1,4 @@
-package HUWEI;
+package HUAWEI;
 
 import java.util.Scanner;
 
@@ -41,8 +41,6 @@ public class T3ChangePingZiToWater {
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
         sc.close();
-
-
         System.out.println("所换得的汽水数为: "+ change(num));
 
     }

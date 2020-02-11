@@ -1,4 +1,4 @@
-package HUWEI;
+package HUAWEI;
 
 /**
  * @ClassName: T1HexToDec
