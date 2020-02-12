@@ -14,7 +14,7 @@ import java.util.*;
  * @Author:xuwen
  * @Date: 2020/2/12 下午4:40
  **/
-public class T926BNumSum {
+public class T10_26BNumSum {
 
     public static ArrayList<Integer> add(int[] a,int[] b){
 

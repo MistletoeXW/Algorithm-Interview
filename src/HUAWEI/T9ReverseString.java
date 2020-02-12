@@ -16,7 +16,7 @@ import java.util.Scanner;
  * @Author:xuwen
  * @Date: 2020/2/12 下午1:30
  **/
-public class T8ReverseString {
+public class T9ReverseString {
 
     //对字符串进行反转
     //采用头尾指针交换的方法
