@@ -1,7 +1,5 @@
 package HUAWEI;
 
-import com.sun.org.apache.xpath.internal.objects.XNumber;
-
 import java.util.Scanner;
 
 /**
