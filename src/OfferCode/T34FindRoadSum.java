@@ -1,6 +1,5 @@
 package OfferCode;
 
-import java.util.ArrayList;
 import java.util.Vector;
 
 /**
@@ -25,10 +24,30 @@ public class T34FindRoadSum {
      *         v: 用
      * @Return: java.util.ArrayList<java.util.ArrayList<java.lang.Integer>>
      **/
-    public void FindRoadSum(LNode root, int num, int sum, Vector<Integer> v){
+    public void FindRoadSum(TreeNode root, int num, int sum, Vector<Integer> v){
 
-        String a = "abc";
+        //记录当前遍历的root结点
+        sum += root.data;
+        v.add(root.data);
+        //当遍历到叶子结点的时候进行判断
+        if(root.lchild==null && root.rchild==null && num==sum){
+            for(Integer n:v){
+                System.out.print(n + " ");
+            }
+            System.out.println();
+        }
+        if(root.lchild != null)
+            FindRoadSum(root.lchild,num,sum,v);
+
+        if(root.rchild != null)
+            FindRoadSum(root.rchild,num,sum,v);
+
+        //如果不满足则向上回溯回到根节点
+        sum -= v.get(v.size()-1);
+        v.remove(v.size()-1);
 
     }
+
+
 
 }

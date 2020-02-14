@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd369cd7-e47b-4682-9413-62bf369c8faf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/HUAWEI/T11TwoStrContain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HUAWEI/T8ReverseString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HUAWEI/T9ReverseString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HUAWEI/T926BNumSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HUAWEI/T10_26BNumSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaAlgorithmInterview/BinaryTree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaAlgorithmInterview/BinaryTree/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaAlgorithmInterview/BinaryTree/P100FindSumRoad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaAlgorithmInterview/BinaryTree/P100FindSumRoad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OfferCode/T34FindRoadSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OfferCode/T34FindRoadSum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,12 +52,26 @@
     <property name="ToolWindowRun.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ProjectManagement_Service" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.T11TwoStrContain">
+  <component name="RunManager" selected="Application.P100FindSumRoad">
+    <configuration name="P100FindSumRoad" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaAlgorithmInterview.BinaryTree.P100FindSumRoad" />
+      <module name="Java Study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JavaAlgorithmInterview.BinaryTree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="T10_26BNumSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HUAWEI.T10_26BNumSum" />
       <module name="Java Study" />
@@ -73,19 +87,6 @@
     </configuration>
     <configuration name="T11TwoStrContain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HUAWEI.T11TwoStrContain" />
-      <module name="Java Study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="HUAWEI.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="T7FindNumInAandB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HUAWEI.T7FindNumInAandB" />
       <module name="Java Study" />
       <extension name="coverage">
         <pattern>
@@ -124,19 +125,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.T7FindNumInAandB" />
       <item itemvalue="Application.T8BookInformation" />
       <item itemvalue="Application.T9ReverseString" />
       <item itemvalue="Application.T10_26BNumSum" />
       <item itemvalue="Application.T11TwoStrContain" />
+      <item itemvalue="Application.P100FindSumRoad" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.P100FindSumRoad" />
         <item itemvalue="Application.T11TwoStrContain" />
         <item itemvalue="Application.T10_26BNumSum" />
         <item itemvalue="Application.T8BookInformation" />
         <item itemvalue="Application.T9ReverseString" />
-        <item itemvalue="Application.T7FindNumInAandB" />
       </list>
     </recent_temporary>
   </component>
@@ -220,7 +221,10 @@
       <workItem from="1581385205189" duration="673000" />
       <workItem from="1581402080977" duration="20820000" />
       <workItem from="1581474619587" duration="13798000" />
-      <workItem from="1581492329979" duration="8110000" />
+      <workItem from="1581492329979" duration="8658000" />
+      <workItem from="1581563606515" duration="8870000" />
+      <workItem from="1581583422618" duration="1002000" />
+      <workItem from="1581643095821" duration="3881000" />
     </task>
     <servers />
   </component>
@@ -253,64 +257,65 @@
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state x="772" y="231" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1037@0.0.1920.1037" timestamp="1581314693214" />
-    <state x="1049" y="360" key="FileChooserDialogImpl" timestamp="1580279700531">
-      <screen x="0" y="0" width="1920" height="1037" />
+    <state x="2969" y="375" key="FileChooserDialogImpl" timestamp="1581572500550">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
+    <state x="2969" y="375" key="FileChooserDialogImpl/0.0.1920.1037/1920.0.1920.1080@1920.0.1920.1080" timestamp="1581572500550" />
     <state x="1049" y="360" key="FileChooserDialogImpl/0.0.1920.1037@0.0.1920.1037" timestamp="1580279700531" />
-    <state width="1126" height="236" key="GridCell.Tab.0.bottom" timestamp="1581504520543">
+    <state width="1118" height="343" key="GridCell.Tab.0.bottom" timestamp="1581644597272">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1850" height="211" key="GridCell.Tab.0.bottom/0.0.1920.1016@0.0.1920.1016" timestamp="1577342551188" />
-    <state width="1126" height="236" key="GridCell.Tab.0.bottom/0.0.1920.1037/1920.0.1920.1080@1920.0.1920.1080" timestamp="1581504520543" />
+    <state width="1118" height="343" key="GridCell.Tab.0.bottom/0.0.1920.1037/1920.0.1920.1080@1920.0.1920.1080" timestamp="1581644597272" />
     <state width="1128" height="244" key="GridCell.Tab.0.bottom/0.0.1920.1037@0.0.1920.1037" timestamp="1581407629589" />
     <state width="1128" height="334" key="GridCell.Tab.0.bottom/0.0.3840.1037@0.0.3840.1037" timestamp="1581430687034" />
-    <state width="1126" height="236" key="GridCell.Tab.0.center" timestamp="1581504520543">
+    <state width="1118" height="343" key="GridCell.Tab.0.center" timestamp="1581644597272">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1850" height="211" key="GridCell.Tab.0.center/0.0.1920.1016@0.0.1920.1016" timestamp="1577342551188" />
-    <state width="1126" height="236" key="GridCell.Tab.0.center/0.0.1920.1037/1920.0.1920.1080@1920.0.1920.1080" timestamp="1581504520543" />
+    <state width="1118" height="343" key="GridCell.Tab.0.center/0.0.1920.1037/1920.0.1920.1080@1920.0.1920.1080" timestamp="1581644597272" />
     <state width="1128" height="244" key="GridCell.Tab.0.center/0.0.1920.1037@0.0.1920.1037" timestamp="1581407629588" />
     <state width="1128" height="334" key="GridCell.Tab.0.center/0.0.3840.1037@0.0.3840.1037" timestamp="1581430687033" />
-    <state width="1126" height="236" key="GridCell.Tab.0.left" timestamp="1581504520543">
+    <state width="1118" height="343" key="GridCell.Tab.0.left" timestamp="1581644597272">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1850" height="211" key="GridCell.Tab.0.left/0.0.1920.1016@0.0.1920.1016" timestamp="1577342551187" />
-    <state width="1126" height="236" key="GridCell.Tab.0.left/0.0.1920.1037/1920.0.1920.1080@1920.0.1920.1080" timestamp="1581504520543" />
+    <state width="1118" height="343" key="GridCell.Tab.0.left/0.0.1920.1037/1920.0.1920.1080@1920.0.1920.1080" timestamp="1581644597272" />
     <state width="1128" height="244" key="GridCell.Tab.0.left/0.0.1920.1037@0.0.1920.1037" timestamp="1581407629588" />
     <state width="1128" height="334" key="GridCell.Tab.0.left/0.0.3840.1037@0.0.3840.1037" timestamp="1581430687033" />
-    <state width="1126" height="236" key="GridCell.Tab.0.right" timestamp="1581504520543">
+    <state width="1118" height="343" key="GridCell.Tab.0.right" timestamp="1581644597272">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1850" height="211" key="GridCell.Tab.0.right/0.0.1920.1016@0.0.1920.1016" timestamp="1577342551188" />
-    <state width="1126" height="236" key="GridCell.Tab.0.right/0.0.1920.1037/1920.0.1920.1080@1920.0.1920.1080" timestamp="1581504520543" />
+    <state width="1118" height="343" key="GridCell.Tab.0.right/0.0.1920.1037/1920.0.1920.1080@1920.0.1920.1080" timestamp="1581644597272" />
     <state width="1128" height="244" key="GridCell.Tab.0.right/0.0.1920.1037@0.0.1920.1037" timestamp="1581407629588" />
     <state width="1128" height="334" key="GridCell.Tab.0.right/0.0.3840.1037@0.0.3840.1037" timestamp="1581430687033" />
-    <state width="1126" height="333" key="GridCell.Tab.1.bottom" timestamp="1581502574681">
+    <state width="1118" height="343" key="GridCell.Tab.1.bottom" timestamp="1581644597272">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1850" height="285" key="GridCell.Tab.1.bottom/0.0.1920.1016@0.0.1920.1016" timestamp="1577334376574" />
-    <state width="1126" height="333" key="GridCell.Tab.1.bottom/0.0.1920.1037/1920.0.1920.1080@1920.0.1920.1080" timestamp="1581502574681" />
+    <state width="1118" height="343" key="GridCell.Tab.1.bottom/0.0.1920.1037/1920.0.1920.1080@1920.0.1920.1080" timestamp="1581644597272" />
     <state width="1874" height="328" key="GridCell.Tab.1.bottom/0.0.1920.1037@0.0.1920.1037" timestamp="1581342156061" />
     <state width="1128" height="334" key="GridCell.Tab.1.bottom/0.0.3840.1037@0.0.3840.1037" timestamp="1581430687035" />
-    <state width="1126" height="333" key="GridCell.Tab.1.center" timestamp="1581502574681">
+    <state width="1118" height="343" key="GridCell.Tab.1.center" timestamp="1581644597272">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1850" height="285" key="GridCell.Tab.1.center/0.0.1920.1016@0.0.1920.1016" timestamp="1577334376572" />
-    <state width="1126" height="333" key="GridCell.Tab.1.center/0.0.1920.1037/1920.0.1920.1080@1920.0.1920.1080" timestamp="1581502574681" />
+    <state width="1118" height="343" key="GridCell.Tab.1.center/0.0.1920.1037/1920.0.1920.1080@1920.0.1920.1080" timestamp="1581644597272" />
     <state width="1874" height="328" key="GridCell.Tab.1.center/0.0.1920.1037@0.0.1920.1037" timestamp="1581342156060" />
     <state width="1128" height="334" key="GridCell.Tab.1.center/0.0.3840.1037@0.0.3840.1037" timestamp="1581430687034" />
-    <state width="1126" height="333" key="GridCell.Tab.1.left" timestamp="1581502574681">
+    <state width="1118" height="343" key="GridCell.Tab.1.left" timestamp="1581644597272">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1850" height="285" key="GridCell.Tab.1.left/0.0.1920.1016@0.0.1920.1016" timestamp="1577334376571" />
-    <state width="1126" height="333" key="GridCell.Tab.1.left/0.0.1920.1037/1920.0.1920.1080@1920.0.1920.1080" timestamp="1581502574681" />
+    <state width="1118" height="343" key="GridCell.Tab.1.left/0.0.1920.1037/1920.0.1920.1080@1920.0.1920.1080" timestamp="1581644597272" />
     <state width="1874" height="328" key="GridCell.Tab.1.left/0.0.1920.1037@0.0.1920.1037" timestamp="1581342156060" />
     <state width="1128" height="334" key="GridCell.Tab.1.left/0.0.3840.1037@0.0.3840.1037" timestamp="1581430687034" />
-    <state width="1126" height="333" key="GridCell.Tab.1.right" timestamp="1581502574681">
+    <state width="1118" height="343" key="GridCell.Tab.1.right" timestamp="1581644597272">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1850" height="285" key="GridCell.Tab.1.right/0.0.1920.1016@0.0.1920.1016" timestamp="1577334376573" />
-    <state width="1126" height="333" key="GridCell.Tab.1.right/0.0.1920.1037/1920.0.1920.1080@1920.0.1920.1080" timestamp="1581502574681" />
+    <state width="1118" height="343" key="GridCell.Tab.1.right/0.0.1920.1037/1920.0.1920.1080@1920.0.1920.1080" timestamp="1581644597272" />
     <state width="1874" height="328" key="GridCell.Tab.1.right/0.0.1920.1037@0.0.1920.1037" timestamp="1581342156061" />
     <state width="1128" height="334" key="GridCell.Tab.1.right/0.0.3840.1037@0.0.3840.1037" timestamp="1581430687035" />
     <state x="775" y="97" key="SettingsEditor" timestamp="1579258503823">
@@ -318,10 +323,10 @@
     </state>
     <state x="266" y="0" key="SettingsEditor/0.0.1920.1016@0.0.1920.1016" timestamp="1577330511186" />
     <state x="775" y="97" key="SettingsEditor/0.0.1920.1037@0.0.1920.1037" timestamp="1579258503823" />
-    <state x="2538" y="360" key="com.intellij.ide.util.TipDialog" timestamp="1581492340627">
+    <state x="2538" y="360" key="com.intellij.ide.util.TipDialog" timestamp="1581643099093">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2538" y="360" key="com.intellij.ide.util.TipDialog/0.0.1920.1037/1920.0.1920.1080@1920.0.1920.1080" timestamp="1581492340627" />
+    <state x="2538" y="360" key="com.intellij.ide.util.TipDialog/0.0.1920.1037/1920.0.1920.1080@1920.0.1920.1080" timestamp="1581643099093" />
     <state x="618" y="346" key="com.intellij.ide.util.TipDialog/0.0.1920.1037@0.0.1920.1037" timestamp="1581402082276" />
     <state x="846" y="101" width="974" height="825" key="dock-window-1" timestamp="1581405158628">
       <screen x="0" y="0" width="1920" height="1037" />
@@ -331,6 +336,10 @@
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state x="697" y="278" key="extract.method.dialog/0.0.1920.1037@0.0.1920.1037" timestamp="1580460786615" />
+    <state x="2956" y="162" key="refactoring.ChangeSignatureDialog" timestamp="1581643932186">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2956" y="162" key="refactoring.ChangeSignatureDialog/0.0.1920.1037/1920.0.1920.1080@1920.0.1920.1080" timestamp="1581643932186" />
     <state x="619" y="231" key="run.anything.popup" timestamp="1578743385927">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
@@ -487,6 +496,11 @@
           <url>file://$PROJECT_DIR$/src/HUAWEI/T6Equation.java</url>
           <line>29</line>
           <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/JavaAlgorithmInterview/BinaryTree/P100FindSumRoad.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="54" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -1,5 +1,6 @@
 package JavaAlgorithmInterview.BinaryTree;
 
+import java.util.Scanner;
 import java.util.Vector;
 
 /**
@@ -38,9 +39,31 @@ public class P100FindSumRoad {
         //遍历右子树
         if(root.rchild!=null)
             FindRoad(root.rchild,num,sum,v);
-        //清除遍历的路径
+
         sum -= v.get(v.size()-1);
         v.remove(v.size()-1);
+
+    }
+
+
+    public static void main(String[] args){
+
+        System.out.print("请输入数组: ");
+        Scanner sc = new Scanner(System.in);
+        String[] str = sc.nextLine().trim().split(" ");
+        Integer[] nums = new Integer[str.length+1];
+        for(int i=1;i<str.length+1;i++){
+            nums[i] = Integer.parseInt(str[i-1]);
+        }
+        System.out.print("请输入数: ");
+        int sum = sc.nextInt();
+        sc.close();
+        BinaryTree root = new BinaryTree();
+        root = root.buildBinaryTreeByArray(nums,1);
+        Vector<Integer> v = new Vector<>();
+        root.floorOrder(root);
+        System.out.println("\n路径为: ");
+        FindRoad(root,sum,0,v);
 
     }
 
