@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd369cd7-e47b-4682-9413-62bf369c8faf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/OfferCode/T36TreeToLinkList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OfferCode/T38Permutation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -222,7 +222,7 @@
       <workItem from="1581492329979" duration="8658000" />
       <workItem from="1581563606515" duration="8870000" />
       <workItem from="1581583422618" duration="1002000" />
-      <workItem from="1581643095821" duration="6346000" />
+      <workItem from="1581643095821" duration="7213000" />
     </task>
     <servers />
   </component>
