@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.Scanner;
 
 /**
- * @ClassName:P117FindRangNNum
+ * @ClassName: P117FindRangNNum
  * @Description: 对于一个给定的自然数N,有N+M个元素的数组,
  *               其中存放了小于或者等于N的所有自然数,求重复出现的自然数序列
  *            例子:{1,2,3,3,3,4,5,5,5,6,7,8}

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 /**
- * @ClassName:P153GetAllSubSet
+ * @ClassName: P153GetAllSubSet
  * @Description: 求集合的所有子集
  *           采用迭代法: 每一次迭代,都是上一次迭代的结果
  *                     +上次迭代结果中每个元素都加上当前迭代的元素
