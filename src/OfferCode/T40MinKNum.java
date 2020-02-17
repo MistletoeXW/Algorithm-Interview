@@ -1,7 +1,7 @@
 package OfferCode;
 
-import sun.nio.cs.ext.MacArabic;
-
+import java.util.ArrayList;
+import java.util.PriorityQueue;
 import java.util.Scanner;
 
 /**
@@ -64,6 +64,25 @@ public class T40MinKNum {
             }
         }
         return maxHeap;
+
+    }
+
+    //当然在面试过程中如果没有时间实现堆的结构,则可以考虑用java中的容器类
+    //java中PriorityQueue通过二叉小顶堆实现，可以用一棵完全二叉树表示,我们需要将其变成大根堆
+    public ArrayList<Integer> findKNum_2(int[] arr,int k){
+
+        if(k>arr.length || k<=0){
+            return new ArrayList<>();
+        }
+        //将小根堆变成大根堆
+        PriorityQueue<Integer> maxHeap = new PriorityQueue<>(((o1, o2) -> o2-o1));
+        for(int num: arr){
+            maxHeap.add(num);
+            //如果加入到堆中的值大于k就将堆顶出堆
+            if(maxHeap.size() > k)
+                maxHeap.poll();
+        }
+        return new ArrayList<>(maxHeap);
 
     }
 

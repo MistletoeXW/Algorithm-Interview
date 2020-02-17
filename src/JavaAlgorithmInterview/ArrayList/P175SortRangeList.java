@@ -1,13 +1,11 @@
 package JavaAlgorithmInterview.ArrayList;
 
-import org.omg.PortableInterceptor.INACTIVE;
-
 import java.util.Map;
 import java.util.Scanner;
 import java.util.TreeMap;
 
 /**
- * @ClassName:P175SortRangeList
+ * @ClassName: P175SortRangeList
  * @Description: 对有大量重复数字的数组进行高效的排序
  *          方法一: 快排,堆排或者归并排序的方法,这些排序的方法的算法时间复杂度为O(nlogn),但是却没有利用具有大量重复数字的特点
  *          方法二: 平衡二叉树(AVL),根据数组数组中的数构建一个AVL树,这里需要对AVL树做适当扩展,在结点增加一个额外的数据
