@@ -1,4 +1,4 @@
-package Test.Text;
+package HUAWEI.Text;
 
 import java.util.LinkedList;
 import java.util.Queue;

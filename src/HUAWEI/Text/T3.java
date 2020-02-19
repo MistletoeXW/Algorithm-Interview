@@ -1,4 +1,4 @@
-package Test.Text;
+package HUAWEI.Text;
 
 /**
  * @ClassName: T3
