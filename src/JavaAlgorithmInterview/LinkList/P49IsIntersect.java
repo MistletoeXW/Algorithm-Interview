@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.Scanner;
 
 /**
- * @ClassName:P49IsIntersect
+ * @ClassName: P49IsIntersect
  * @Description: 判断两个单链表是否相交，方法一：hash法 方法二：长的链表先走n1-n2步
  * @Author:xuwen
  * @Date: 2020/1/11 下午6:51

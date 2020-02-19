@@ -1,8 +1,5 @@
 package JavaAlgorithmInterview.LinkList;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
 import java.util.Scanner;
 
 //将两个链表所表示的数相加
