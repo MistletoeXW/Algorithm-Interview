@@ -1,5 +1,6 @@
 package OfferCode;
 
+import javax.swing.*;
 import java.util.Scanner;
 
 /**
@@ -27,14 +28,28 @@ public class T14integerBreak {
 
     //=======================方法一: 动态规划========================
     public int integerBreak_1(int n){
+        if(n<2)
+            return 0;
+        if(n==2)
+            return 1;
+        if(n==3)
+            return 2;
         int[] dp = new int[n+1];
+        dp[0] = 0;
         dp[1] = 1;//绳子长度为1时,只有一种剪法最大值为1
-        for(int i=2;i<=n;i++){
-            for(int j=1;j<i;j++)
-                //j的长度将绳子分为两段,长度为j和长度为i-j
-                dp[i] = Math.max(dp[i],Math.max(j*(i-j),dp[j]*(i-j)));
+        dp[2] = 2;
+        dp[3] = 3;
+
+        int max = 0;
+        for(int i=4;i<=n;i++){
+            for(int j=1;j<=i/2;j++){
+                int products = dp[j]*dp[i-j];
+                if(max < products)
+                    max = products;
+            }
         }
-        return dp[n];
+        max = dp[n];
+        return max;
     }
 
     //========================方法二:贪婪算法==========================
