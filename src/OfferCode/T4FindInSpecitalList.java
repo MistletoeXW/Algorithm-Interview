@@ -51,5 +51,32 @@ public class T4FindInSpecitalList {
     }
 
 
+    //================================牛客网练习=========================
+    public boolean Find(int target,int[][] array){
+
+        if(array == null){
+            return false;
+        }
+
+        int rows = array.length-1;
+        int cols = array[0].length-1;
+        int row = 0;
+        int col = cols;
+        while (row <= rows && col >= 0){
+            if(array[row][col] > target){
+                col--;
+            }else if (array[row][col] < target){
+                row++;
+            }else{
+                return true;
+            }
+
+        }
+        return false;
+
+
+    }
+
+
 
 }

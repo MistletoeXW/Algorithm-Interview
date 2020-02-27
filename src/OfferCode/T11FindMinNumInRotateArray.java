@@ -57,5 +57,25 @@ public class T11FindMinNumInRotateArray {
 
     }
 
+    //=================牛客网=======================
+    public int  minNumInArray(int[] array){
+
+        if(array == null)
+            return 0;
+        int low = 0;
+        int high = array.length-1;
+
+        while(low < high){
+            int mid = (high+low)/2;
+            if(array[mid] <= array[high]){
+                high = mid;
+            }else if(array[mid] > array[high]){
+                low = mid + 1;
+            }
+        }
+        return array[low];
+
+    }
+
 
 }

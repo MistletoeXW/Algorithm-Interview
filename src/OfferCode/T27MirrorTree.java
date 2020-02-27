@@ -21,9 +21,13 @@ public class T27MirrorTree {
 
         if(root == null)
             return;
+        if(root.lchild == null && root.rchild == null)
+            return;
         swap(root);
-        MirrorTree(root.lchild);
-        MirrorTree(root.rchild);
+        if(root.lchild != null)
+            MirrorTree(root.lchild);
+        if(root.rchild != null)
+            MirrorTree(root.rchild);
     }
 
 

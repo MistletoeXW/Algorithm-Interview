@@ -43,10 +43,58 @@ public class T16Power {
             isNegative=true;
         }
 
+        //这里计算(x*x)^2/n  如果n为奇数,则将数再乘一个x
         double pow = Power_2(base*base,exponent/2);
         if(exponent%2 != 0)
             pow = pow*base;
         return isNegative ? 1 / pow : pow;
+    }
+
+
+
+
+
+
+
+    //======================牛客网===============
+    //方法一: 普通方法
+    public double Power_11(double base,int exponent){
+
+        if(exponent == 0)
+            return 1;
+        if(exponent == 1)
+            return base;
+        boolean mark = false;
+        if(exponent < 0){
+            exponent = -exponent;
+            mark = true;
+        }
+        double result = 1.0;
+        for(int i=0;i<exponent;i++){
+            result *= base;
+        }
+        return mark ? 1 / result : result;
+
+    }
+
+    //方法二: 优化方案 使用x = (x*x)^n/2
+    public double Power_22(double base,int exponent){
+
+        if(exponent == 0)
+            return 1;
+        if(exponent == 1)
+            return base;
+        boolean mark = false;
+        if(exponent < 0){
+            exponent = -exponent;
+            mark = true;
+        }
+        double result = Power_22(base*base,exponent/2);
+        if(exponent % 2 !=0){
+            result = result*base;
+        }
+        return mark ? 1/result : result;
+
     }
 
 

@@ -92,10 +92,8 @@ public class T6PrintListFromTailToHead {
         System.out.print("从尾到头输出链表为: ");
         printListFromTailToHead_3(head);
 
-
-
-
     }
+
 
 
 }

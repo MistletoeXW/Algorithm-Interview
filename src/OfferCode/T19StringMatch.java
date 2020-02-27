@@ -31,7 +31,7 @@ public class T19StringMatch {
 
         int sLen = array.length;
         int pLen = pattern.length;
-        //字符串和模式字符数组都已经完成最后一个字符匹配,说明没有出现没有出现匹配失败
+        //字符串和模式字符数组都已经完成最后一个字符匹配,说明没有出现匹配失败
         if(sIndex >= sLen && pIndex >=pLen)
             return true;
         //如果模式串的每一个字符都已经参与匹配,而字符串还有字符未匹配到,说明不匹配
@@ -76,19 +76,24 @@ public class T19StringMatch {
 
     public static void main(String[] args){
 
-        System.out.print("请输入模式串: ");
-        Scanner sc = new Scanner(System.in);
-        String pattern = sc.nextLine();
-        System.out.print("请输入匹配串: ");
-        Scanner sc1 = new Scanner(System.in);
-        String array = sc.nextLine();
-        sc.close();
-        sc1.close();
+//        System.out.print("请输入模式串: ");
+//        Scanner sc = new Scanner(System.in);
+//        String pattern = sc.nextLine();
+//        System.out.print("请输入匹配串: ");
+//        Scanner sc1 = new Scanner(System.in);
+//        String array = sc.nextLine();
+//        sc.close();
+//        sc1.close();
 
-        System.out.print("匹配结果为: ");
-        T19StringMatch object = new T19StringMatch();
-        System.out.print(object.StringMatch(array.toCharArray(),0,pattern.toCharArray(),0)+"\n");
+        int a = Integer.parseInt("1");
+        String s = "ste"+a;
 
+        System.out.println(s);
+//
+//        System.out.print("匹配结果为: ");
+//        T19StringMatch object = new T19StringMatch();
+//        System.out.print(object.StringMatch(array.toCharArray(),0,pattern.toCharArray(),0)+"\n");
+//
     }
 
 

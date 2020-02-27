@@ -1,5 +1,6 @@
 package OfferCode;
 
+import java.lang.reflect.Array;
 import java.util.Arrays;
 
 /**
@@ -32,5 +33,35 @@ public class T10_3JumpFloorII {
                 dp[i] += dp[j];
         return dp[n-1];
     }
+
+
+
+
+
+
+    //========================牛客网========================
+    //用递归:f(n) = 2*f(n-1)
+    public int JumpFloor_1(int target){
+
+        if(target<=1)
+            return target;
+        return 2*JumpFloor_1(target-1);
+    }
+    //用动态规划: f(n) = f(n-1)+f(n-2)+....+f(0)
+    public int JumpFloor_2(int target){
+
+        if(target <= 0)
+            return 0;
+        int[] dp = new int[target];
+        Arrays.fill(dp,1);
+        for(int i=1;i<target;i++){
+            for(int j=0;j<i;j++){
+                dp[i] += dp[j];
+            }
+        }
+        return dp[target-1];
+    }
+
+
 
 }

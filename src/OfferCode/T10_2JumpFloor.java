@@ -45,6 +45,26 @@ public class T10_2JumpFloor {
 
     }
 
+    //===============牛客网=============================
+    public int JumpFloor_2(int target){
+
+        if(target <=2){
+            return target;
+        }
+        int pre1 = 1;
+        int pre2 = 2;
+        int count = 0;
+        for(int i=3;i<=target;i++){
+
+            count = pre1+pre2;
+            pre1 = pre2;
+            pre2 = count;
+        }
+
+        return count;
+
+    }
+
 
 
 }

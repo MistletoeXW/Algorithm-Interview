@@ -58,11 +58,39 @@ public class T5ReplaceSpace {
         Scanner sc = new Scanner(System.in);
         String s = sc.nextLine();
         sc.close();
-
-        String str = replaceSpace(s);
+        StringBuffer str = new StringBuffer().append(s);
+        String result = replaceSpace(str);
         System.out.print("转换后的字符串为: " + str);
 
 
     }
+
+    //========================牛客练习=========================
+    public static String replaceSpace(StringBuffer str){
+
+        if(str == null)
+            return null;
+        int low = str.length()-1;
+        for(int i=0;i<=low;i++){
+            if(str.charAt(i) == ' '){
+                str.append("  ");//这里要添加俩个空格
+            }
+        }
+        int high = str.length()-1;
+        while((low < high) && low >= 0){
+            char c = str.charAt(low--);
+            if(c != ' '){
+                str.setCharAt(high--,c);
+            }else {
+                str.setCharAt(high--,'0');
+                str.setCharAt(high--,'2');
+                str.setCharAt(high--,'%');
+            }
+        }
+
+        return str.toString();
+
+    }
+
 
 }

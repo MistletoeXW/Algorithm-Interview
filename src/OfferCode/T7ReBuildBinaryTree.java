@@ -77,7 +77,7 @@ public class T7ReBuildBinaryTree {
 
         System.out.print("根据中序遍历和先序遍历创建二叉树!");
 
-        TreeNode root = reBuildBinaryTree(pre,in);
+        TreeNode root = binaryTree(pre,in);
 
         System.out.print("\n二叉树的先序遍历结果为: ");
         root.preOrder(root);
@@ -93,6 +93,35 @@ public class T7ReBuildBinaryTree {
 
 
     }
+
+    //==============================牛客网==========================
+    public static TreeNode binaryTree(int[] pre,int[] in){
+
+
+        return reBuildTree(pre,in,0,pre.length-1,0);
+    }
+
+    //[先序遍历数组,先序遍历头部,先序遍历尾部,中序遍历头部]
+    public static TreeNode reBuildTree(int[] pre,int[] in,int preL,int preR,int inL){
+
+        if(preL > preR)
+            return null;
+        TreeNode root = new TreeNode(pre[preL]);
+        int index = 0;
+        for(index=0;index<in.length;index++){
+            if(in[index] == root.data){
+                break;
+            }
+
+        }
+        int indexGap = index-inL;
+
+        root.lchild = reBuildTree(pre,in,preL+1,preL+indexGap,inL);
+        root.rchild = reBuildTree(pre,in,preL+indexGap+1,preR,inL+indexGap+1);
+
+        return root;
+    }
+
 
 
 }
