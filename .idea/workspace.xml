@@ -2,30 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd369cd7-e47b-4682-9413-62bf369c8faf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/JavaBase/T1BigNumSumAndSubAndMux.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OfferCode/T15_1Count1InNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/XindongNet/T1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/XindongNet/T2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/XindongNet/TreeNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Study/OfferCode/T14integerBreak.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Study/OfferCode/T14integerBreak.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Study/OfferCode/T16Power.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Study/OfferCode/T16Power.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Study/OfferCode/T19StringMatch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Study/OfferCode/T19StringMatch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Study/OfferCode/T27MirrorTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Study/OfferCode/T27MirrorTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Study/OfferCode/T4FindInSpecitalList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Study/OfferCode/T4FindInSpecitalList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Study/OfferCode/T5ReplaceSpace.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Study/OfferCode/T5ReplaceSpace.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Study/OfferCode/T6PrintListFromTailToHead.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Study/OfferCode/T6PrintListFromTailToHead.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Study/OfferCode/T7ReBuildBinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Study/OfferCode/T7ReBuildBinaryTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Study/Wind/T2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Study/Wind/T2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OfferCode/T10_1Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OfferCode/T10_1Fibonacci.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OfferCode/T10_2JumpFloor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OfferCode/T10_2JumpFloor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OfferCode/T10_3JumpFloorII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OfferCode/T10_3JumpFloorII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OfferCode/T11FindMinNumInRotateArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OfferCode/T11FindMinNumInRotateArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OfferCode/T16Power.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OfferCode/T16Power.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OfferCode/T19StringMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OfferCode/T19StringMatch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OfferCode/T21ReOrderArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OfferCode/T21ReOrderArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OfferCode/T26HasSubTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OfferCode/T26HasSubTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/OfferCode/T27MirrorTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OfferCode/T27MirrorTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OfferCode/T4FindInSpecitalList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OfferCode/T4FindInSpecitalList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OfferCode/T5ReplaceSpace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OfferCode/T5ReplaceSpace.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OfferCode/T6PrintListFromTailToHead.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OfferCode/T6PrintListFromTailToHead.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OfferCode/T7ReBuildBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OfferCode/T7ReBuildBinaryTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +62,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="XindongNet" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/HUAWEI/Text" />
     </key>
@@ -273,7 +258,8 @@
       <workItem from="1582684646910" duration="2310000" />
       <workItem from="1582762096689" duration="191000" />
       <workItem from="1582762300927" duration="13856000" />
-      <workItem from="1582778766888" duration="604000" />
+      <workItem from="1582778766888" duration="2971000" />
+      <workItem from="1582848622672" duration="13554000" />
     </task>
     <servers />
   </component>
@@ -384,12 +370,12 @@
     </state>
     <state x="266" y="0" key="SettingsEditor/0.0.1920.1016@0.0.1920.1016" timestamp="1577330511186" />
     <state x="775" y="97" key="SettingsEditor/0.0.1920.1037@0.0.1920.1037" timestamp="1579258503823" />
-    <state x="2538" y="360" key="com.intellij.ide.util.TipDialog" timestamp="1582778766878">
+    <state x="2538" y="360" key="com.intellij.ide.util.TipDialog" timestamp="1582848622252">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2538" y="360" key="com.intellij.ide.util.TipDialog/0.0.1920.1037/1920.0.1920.1080@1920.0.1920.1080" timestamp="1581643099093" />
     <state x="618" y="346" key="com.intellij.ide.util.TipDialog/0.0.1920.1037@0.0.1920.1037" timestamp="1581402082276" />
-    <state x="2538" y="360" key="com.intellij.ide.util.TipDialog/1920.0.1920.1080/0.0.1920.1037@1920.0.1920.1080" timestamp="1582778766878" />
+    <state x="2538" y="360" key="com.intellij.ide.util.TipDialog/1920.0.1920.1080/0.0.1920.1037@1920.0.1920.1080" timestamp="1582848622252" />
     <state x="846" y="101" width="974" height="825" key="dock-window-1" timestamp="1581405158628">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>

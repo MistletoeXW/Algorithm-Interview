@@ -38,4 +38,36 @@ public class T26HasSubTree {
 
     }
 
+
+    //=========================牛客网==========================
+    public boolean HasSubTreeNode(TreeNode root1,TreeNode root2){
+        if(root1 == null)
+            return false;
+        if(root2 == null)
+            return true;
+        boolean result = false;
+        //首先先序遍历找到相同的根节点,然后再判断左右子树
+        if(root1.data == root2.data)
+            result = Tree1HasTree2(root1,root2);
+        if(!result)
+            result = HasSubTreeNode(root1.lchild,root2);
+        if(!result)
+            result = HasSubTreeNode(root1.rchild,root2);
+        return result;
+    }
+
+    public boolean Tree1HasTree2(TreeNode root1,TreeNode root2){
+
+        if(root1 == null)
+            return false;
+        if(root2 == null)
+            return true;
+        if(root1.data == root2.data)
+            return false;
+        return Tree1HasTree2(root1.lchild,root2.lchild) && Tree1HasTree2(root1.rchild,root2.rchild);
+
+    }
+
+
+
 }
