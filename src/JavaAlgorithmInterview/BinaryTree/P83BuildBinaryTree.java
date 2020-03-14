@@ -1,6 +1,6 @@
 package JavaAlgorithmInterview.BinaryTree;
 
-import java.beans.BeanInfo;
+
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
