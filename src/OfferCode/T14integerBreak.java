@@ -39,16 +39,17 @@ public class T14integerBreak {
         dp[1] = 1;//绳子长度为1时,只有一种剪法最大值为1
         dp[2] = 2;
         dp[3] = 3;
-
-        int max = 0;
+        int max =0;
         for(int i=4;i<=n;i++){
+            max = 0;
             for(int j=1;j<=i/2;j++){
                 int products = dp[j]*dp[i-j];
                 if(max < products)
                     max = products;
             }
+            dp[n] = max;
         }
-        max = dp[n];
+
         return max;
     }
 

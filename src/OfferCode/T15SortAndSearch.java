@@ -74,7 +74,7 @@ public class T15SortAndSearch {
                 arr[k] = b[j++];
         }
         while(i<=mid) arr[k++] = b[i++];//若第一个表未检测完,则将剩下的元素遍历放入arr数组中
-        while(j<=mid) arr[k++] = b[j++];//若第二个表未检测完,则将剩下的元素遍历放入arr数组中
+        while(j<=high) arr[k++] = b[j++];//若第二个表未检测完,则将剩下的元素遍历放入arr数组中
     }
 
     public void MergeSort(int[] arr,int low,int high){

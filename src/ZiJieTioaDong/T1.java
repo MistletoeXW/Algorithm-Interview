@@ -43,7 +43,8 @@ public class T1 {
         Queue<treeNode> queue = new LinkedList<>();
         queue.add(root);
         while(!queue.isEmpty()){
-            for(int i=0;i<queue.size();i++){
+            int size =queue.size();
+            for(int i=0;i<size;i++){
                 treeNode p = queue.poll();
                 p.next = queue.peek();
                 if(p.left!=null) queue.add(p.left);

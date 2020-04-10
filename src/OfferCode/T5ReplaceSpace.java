@@ -16,7 +16,7 @@ import java.util.Scanner;
  * @Author:xuwen
  * @Date: 2020/2/2 上午11:37
  **/
-public class T5ReplaceSpace {
+public class  T5ReplaceSpace {
 
     /*
      * @Author: xw
