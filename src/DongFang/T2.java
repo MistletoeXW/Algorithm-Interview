@@ -3,7 +3,7 @@ package DongFang;
 import java.util.Scanner;
 
 /**
- * @ClassName:T2
+ * @ClassName: T2
  * @Description:
  * @Author:xuwen
  * @Date: 2020/4/12 下午9:31

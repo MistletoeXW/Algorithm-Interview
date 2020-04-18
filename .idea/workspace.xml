@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd369cd7-e47b-4682-9413-62bf369c8faf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DongFang/T1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DongFang/T2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ZiJieTioaDong/TEst2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ZiJieTioaDong/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ZiJieTioaDong/Test3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ACMSpring/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ACMSpring/D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ACMSpring/E.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ACMSpring/F.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ACMSpring/T1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ACMSpring/T3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DongFang/T2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DongFang/T2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,13 +72,13 @@
       <recent name="$PROJECT_DIR$/src/HUAWEI/Text" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.T2">
-    <configuration name="T1 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DongFang.T1" />
+  <component name="RunManager" selected="Application.D">
+    <configuration name="B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ACMSpring.B" />
       <module name="Java Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DongFang.*" />
+          <option name="PATTERN" value="ACMSpring.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DongFang.T2" />
+    <configuration name="D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ACMSpring.D" />
       <module name="Java Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DongFang.*" />
+          <option name="PATTERN" value="ACMSpring.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TEst2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ZiJieTioaDong.TEst2" />
+    <configuration name="E" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ACMSpring.E" />
       <module name="Java Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ZiJieTioaDong.*" />
+          <option name="PATTERN" value="ACMSpring.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ZiJieTioaDong.Test1" />
+    <configuration name="F" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ACMSpring.F" />
       <module name="Java Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ZiJieTioaDong.*" />
+          <option name="PATTERN" value="ACMSpring.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ZiJieTioaDong.Test3" />
+    <configuration name="T3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ACMSpring.T3" />
       <module name="Java Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ZiJieTioaDong.*" />
+          <option name="PATTERN" value="ACMSpring.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,19 +139,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Test1" />
-      <item itemvalue="Application.TEst2" />
-      <item itemvalue="Application.Test3" />
-      <item itemvalue="Application.T1 (2)" />
-      <item itemvalue="Application.T2" />
+      <item itemvalue="Application.T3" />
+      <item itemvalue="Application.E" />
+      <item itemvalue="Application.B" />
+      <item itemvalue="Application.F" />
+      <item itemvalue="Application.D" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.T2" />
-        <item itemvalue="Application.T1 (2)" />
-        <item itemvalue="Application.Test3" />
-        <item itemvalue="Application.TEst2" />
-        <item itemvalue="Application.Test1" />
+        <item itemvalue="Application.D" />
+        <item itemvalue="Application.F" />
+        <item itemvalue="Application.E" />
+        <item itemvalue="Application.B" />
+        <item itemvalue="Application.T3" />
       </list>
     </recent_temporary>
   </component>
@@ -300,7 +302,10 @@
       <workItem from="1586324797592" duration="1207000" />
       <workItem from="1586396373713" duration="610000" />
       <workItem from="1586519283238" duration="708000" />
-      <workItem from="1586657781251" duration="11271000" />
+      <workItem from="1586657781251" duration="11835000" />
+      <workItem from="1586746582924" duration="1862000" />
+      <workItem from="1587124705342" duration="603000" />
+      <workItem from="1587175073256" duration="18499000" />
     </task>
     <servers />
   </component>
@@ -312,23 +317,11 @@
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state x="873" y="123" key="#Custom_Plugin_Repositories/0.0.1920.1037@0.0.1920.1037" timestamp="1579258423458" />
-    <state x="359" y="0" key="#Notifications" timestamp="1578225189228">
-      <screen x="0" y="0" width="1920" height="1037" />
-    </state>
-    <state x="359" y="0" key="#Notifications/0.0.1920.1037@0.0.1920.1037" timestamp="1578225189228" />
-    <state x="1160" y="312" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1578230830297">
-      <screen x="0" y="0" width="1920" height="1037" />
-    </state>
-    <state x="1160" y="312" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.0.1920.1037@0.0.1920.1037" timestamp="1578230830297" />
-    <state x="559" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578467667236">
-      <screen x="0" y="0" width="1920" height="1037" />
-    </state>
-    <state x="559" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1037@0.0.1920.1037" timestamp="1578467667236" />
-    <state x="2692" y="241" key="#com.intellij.ide.util.MemberChooser" timestamp="1586690005064">
+    <state x="2692" y="241" key="#com.intellij.ide.util.MemberChooser" timestamp="1587198265289">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="772" y="231" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1037@0.0.1920.1037" timestamp="1581314693214" />
-    <state x="2692" y="241" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1080/0.0.1920.1037@1920.0.1920.1080" timestamp="1586690005064" />
+    <state x="2692" y="241" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1080/0.0.1920.1037@1920.0.1920.1080" timestamp="1587198265289" />
     <state x="2949" y="363" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1581841368365">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -338,72 +331,72 @@
     </state>
     <state x="2969" y="375" key="FileChooserDialogImpl/0.0.1920.1037/1920.0.1920.1080@1920.0.1920.1080" timestamp="1581572500550" />
     <state x="1049" y="360" key="FileChooserDialogImpl/0.0.1920.1037@0.0.1920.1037" timestamp="1580279700531" />
-    <state width="1874" height="225" key="GridCell.Tab.0.bottom" timestamp="1586698664062">
+    <state width="1874" height="227" key="GridCell.Tab.0.bottom" timestamp="1587201652150">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1118" height="343" key="GridCell.Tab.0.bottom/0.0.1920.1037/1920.0.1920.1080@1920.0.1920.1080" timestamp="1581675785757" />
     <state width="1128" height="244" key="GridCell.Tab.0.bottom/0.0.1920.1037@0.0.1920.1037" timestamp="1581407629589" />
     <state width="1128" height="334" key="GridCell.Tab.0.bottom/0.0.3840.1037@0.0.3840.1037" timestamp="1581430687034" />
-    <state width="1874" height="225" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.0.1920.1037@1920.0.1920.1080" timestamp="1586698664062" />
-    <state width="1874" height="225" key="GridCell.Tab.0.center" timestamp="1586698664062">
+    <state width="1874" height="227" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.0.1920.1037@1920.0.1920.1080" timestamp="1587201652150" />
+    <state width="1874" height="227" key="GridCell.Tab.0.center" timestamp="1587201652150">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1118" height="343" key="GridCell.Tab.0.center/0.0.1920.1037/1920.0.1920.1080@1920.0.1920.1080" timestamp="1581675785757" />
     <state width="1128" height="244" key="GridCell.Tab.0.center/0.0.1920.1037@0.0.1920.1037" timestamp="1581407629588" />
     <state width="1128" height="334" key="GridCell.Tab.0.center/0.0.3840.1037@0.0.3840.1037" timestamp="1581430687033" />
-    <state width="1874" height="225" key="GridCell.Tab.0.center/1920.0.1920.1080/0.0.1920.1037@1920.0.1920.1080" timestamp="1586698664062" />
-    <state width="1874" height="225" key="GridCell.Tab.0.left" timestamp="1586698664062">
+    <state width="1874" height="227" key="GridCell.Tab.0.center/1920.0.1920.1080/0.0.1920.1037@1920.0.1920.1080" timestamp="1587201652150" />
+    <state width="1874" height="227" key="GridCell.Tab.0.left" timestamp="1587201652150">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1118" height="343" key="GridCell.Tab.0.left/0.0.1920.1037/1920.0.1920.1080@1920.0.1920.1080" timestamp="1581675785757" />
     <state width="1128" height="244" key="GridCell.Tab.0.left/0.0.1920.1037@0.0.1920.1037" timestamp="1581407629588" />
     <state width="1128" height="334" key="GridCell.Tab.0.left/0.0.3840.1037@0.0.3840.1037" timestamp="1581430687033" />
-    <state width="1874" height="225" key="GridCell.Tab.0.left/1920.0.1920.1080/0.0.1920.1037@1920.0.1920.1080" timestamp="1586698664062" />
-    <state width="1874" height="225" key="GridCell.Tab.0.right" timestamp="1586698664062">
+    <state width="1874" height="227" key="GridCell.Tab.0.left/1920.0.1920.1080/0.0.1920.1037@1920.0.1920.1080" timestamp="1587201652150" />
+    <state width="1874" height="227" key="GridCell.Tab.0.right" timestamp="1587201652150">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1118" height="343" key="GridCell.Tab.0.right/0.0.1920.1037/1920.0.1920.1080@1920.0.1920.1080" timestamp="1581675785757" />
     <state width="1128" height="244" key="GridCell.Tab.0.right/0.0.1920.1037@0.0.1920.1037" timestamp="1581407629588" />
     <state width="1128" height="334" key="GridCell.Tab.0.right/0.0.3840.1037@0.0.3840.1037" timestamp="1581430687033" />
-    <state width="1874" height="225" key="GridCell.Tab.0.right/1920.0.1920.1080/0.0.1920.1037@1920.0.1920.1080" timestamp="1586698664062" />
-    <state width="1874" height="323" key="GridCell.Tab.1.bottom" timestamp="1586695316087">
+    <state width="1874" height="227" key="GridCell.Tab.0.right/1920.0.1920.1080/0.0.1920.1037@1920.0.1920.1080" timestamp="1587201652150" />
+    <state width="1874" height="323" key="GridCell.Tab.1.bottom" timestamp="1587200338460">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1118" height="343" key="GridCell.Tab.1.bottom/0.0.1920.1037/1920.0.1920.1080@1920.0.1920.1080" timestamp="1581675785757" />
     <state width="1874" height="328" key="GridCell.Tab.1.bottom/0.0.1920.1037@0.0.1920.1037" timestamp="1581342156061" />
     <state width="1128" height="334" key="GridCell.Tab.1.bottom/0.0.3840.1037@0.0.3840.1037" timestamp="1581430687035" />
-    <state width="1874" height="323" key="GridCell.Tab.1.bottom/1920.0.1920.1080/0.0.1920.1037@1920.0.1920.1080" timestamp="1586695316087" />
-    <state width="1874" height="323" key="GridCell.Tab.1.center" timestamp="1586695316087">
+    <state width="1874" height="323" key="GridCell.Tab.1.bottom/1920.0.1920.1080/0.0.1920.1037@1920.0.1920.1080" timestamp="1587200338460" />
+    <state width="1874" height="323" key="GridCell.Tab.1.center" timestamp="1587200338460">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1118" height="343" key="GridCell.Tab.1.center/0.0.1920.1037/1920.0.1920.1080@1920.0.1920.1080" timestamp="1581675785757" />
     <state width="1874" height="328" key="GridCell.Tab.1.center/0.0.1920.1037@0.0.1920.1037" timestamp="1581342156060" />
     <state width="1128" height="334" key="GridCell.Tab.1.center/0.0.3840.1037@0.0.3840.1037" timestamp="1581430687034" />
-    <state width="1874" height="323" key="GridCell.Tab.1.center/1920.0.1920.1080/0.0.1920.1037@1920.0.1920.1080" timestamp="1586695316087" />
-    <state width="1874" height="323" key="GridCell.Tab.1.left" timestamp="1586695316087">
+    <state width="1874" height="323" key="GridCell.Tab.1.center/1920.0.1920.1080/0.0.1920.1037@1920.0.1920.1080" timestamp="1587200338460" />
+    <state width="1874" height="323" key="GridCell.Tab.1.left" timestamp="1587200338460">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1118" height="343" key="GridCell.Tab.1.left/0.0.1920.1037/1920.0.1920.1080@1920.0.1920.1080" timestamp="1581675785757" />
     <state width="1874" height="328" key="GridCell.Tab.1.left/0.0.1920.1037@0.0.1920.1037" timestamp="1581342156060" />
     <state width="1128" height="334" key="GridCell.Tab.1.left/0.0.3840.1037@0.0.3840.1037" timestamp="1581430687034" />
-    <state width="1874" height="323" key="GridCell.Tab.1.left/1920.0.1920.1080/0.0.1920.1037@1920.0.1920.1080" timestamp="1586695316087" />
-    <state width="1874" height="323" key="GridCell.Tab.1.right" timestamp="1586695316087">
+    <state width="1874" height="323" key="GridCell.Tab.1.left/1920.0.1920.1080/0.0.1920.1037@1920.0.1920.1080" timestamp="1587200338460" />
+    <state width="1874" height="323" key="GridCell.Tab.1.right" timestamp="1587200338460">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1118" height="343" key="GridCell.Tab.1.right/0.0.1920.1037/1920.0.1920.1080@1920.0.1920.1080" timestamp="1581675785757" />
     <state width="1874" height="328" key="GridCell.Tab.1.right/0.0.1920.1037@0.0.1920.1037" timestamp="1581342156061" />
     <state width="1128" height="334" key="GridCell.Tab.1.right/0.0.3840.1037@0.0.3840.1037" timestamp="1581430687035" />
-    <state width="1874" height="323" key="GridCell.Tab.1.right/1920.0.1920.1080/0.0.1920.1037@1920.0.1920.1080" timestamp="1586695316087" />
+    <state width="1874" height="323" key="GridCell.Tab.1.right/1920.0.1920.1080/0.0.1920.1037@1920.0.1920.1080" timestamp="1587200338460" />
     <state x="775" y="97" key="SettingsEditor" timestamp="1579258503823">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state x="775" y="97" key="SettingsEditor/0.0.1920.1037@0.0.1920.1037" timestamp="1579258503823" />
-    <state x="618" y="346" key="com.intellij.ide.util.TipDialog" timestamp="1586657785876">
+    <state x="618" y="346" key="com.intellij.ide.util.TipDialog" timestamp="1587175073366">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state x="2538" y="360" key="com.intellij.ide.util.TipDialog/0.0.1920.1037/1920.0.1920.1080@1920.0.1920.1080" timestamp="1581643099093" />
     <state x="618" y="346" key="com.intellij.ide.util.TipDialog/0.0.1920.1037@0.0.1920.1037" timestamp="1586324797496" />
-    <state x="618" y="346" key="com.intellij.ide.util.TipDialog/1920.0.1920.1080/0.0.1920.1037@1920.0.1920.1080" timestamp="1586657785876" />
+    <state x="618" y="346" key="com.intellij.ide.util.TipDialog/1920.0.1920.1080/0.0.1920.1037@1920.0.1920.1080" timestamp="1587175073366" />
     <state x="2675" y="163" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1586691532636">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -688,6 +681,21 @@
           <url>file://$PROJECT_DIR$/src/ZiJieTioaDong/Test3.java</url>
           <line>80</line>
           <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ACMSpring/F.java</url>
+          <line>134</line>
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ACMSpring/F.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ACMSpring/D.java</url>
+          <line>79</line>
+          <option name="timeStamp" value="104" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
